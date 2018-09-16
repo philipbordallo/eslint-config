@@ -1,0 +1,32 @@
+{
+  "name": "@philipbordallo/eslint-config",
+  "version": "1.0.0",
+  "description": "Personal ESLint config",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Philip Bordallo",
+  "homepage": "https://github.com/philipbordallo/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipbordallo/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/philipbordallo/eslint-config/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5"
+  }
+}
