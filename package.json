@@ -3,9 +3,6 @@
   "version": "1.1.0",
   "description": "Personal ESLint config",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "license": "MIT",
   "keywords": [
     "eslint",
@@ -21,6 +18,8 @@
     "url": "https://github.com/philipbordallo/eslint-config/issues"
   },
   "scripts": {
+    "build": "babel-node build.js",
+    "lint": "eslint --config ./configs/default/index.js ./src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -30,5 +29,16 @@
     "eslint": ">=5",
     "eslint-plugin-react": ">=7",
     "eslint-plugin-jsx-a11y": ">=6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-plugin-dynamic-import-node": "^2.1.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "eslint": "^5.6.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
   }
 }

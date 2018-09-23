@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "@babel/env"
+  ],
+  "plugins": [
+    "@babel/syntax-dynamic-import",
+    "dynamic-import-node",
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {}
+    }]
+  ]
+}
