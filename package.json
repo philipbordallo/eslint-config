@@ -1,22 +1,10 @@
 {
   "name": "eslint-configs",
-  "version": "1.1.0",
-  "description": "Personal ESLint configs",
+  "version": "2.0.0",
+  "private": true,
   "main": "build.js",
   "license": "MIT",
-  "keywords": [
-    "eslint",
-    "eslint-config"
-  ],
   "author": "Philip Bordallo",
-  "homepage": "https://github.com/philipbordallo/eslint-config#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/philipbordallo/eslint-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/philipbordallo/eslint-config/issues"
-  },
   "scripts": {
     "build": "babel-node build.js",
     "lint": "eslint --config ./configs/default/index.js ./src/",
