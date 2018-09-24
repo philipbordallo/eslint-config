@@ -7,8 +7,8 @@
   "author": "Philip Bordallo",
   "scripts": {
     "build": "babel-node build.js",
-    "lint": "eslint --config ./configs/default/index.js ./src/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:react",
+    "test:react": "eslint --config ./packages/eslint-config-react/index.js ./tests/react.jsx"
   },
   "dependencies": {
     "eslint-restricted-globals": "^0.1.1"

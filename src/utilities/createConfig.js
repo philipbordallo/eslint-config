@@ -1,6 +1,6 @@
 import combineRules from 'utilities/combineRules';
 
-const OPTION_DEFAULTS = {
+const DEFAULT_OPTIONS = {
   rules: {},
   base: {},
 };
@@ -13,14 +13,14 @@ const OPTION_DEFAULTS = {
  */
 async function createConfig(optionsArgs) {
   const options = {
-    ...OPTION_DEFAULTS,
+    ...DEFAULT_OPTIONS,
     ...optionsArgs,
   };
   const { rules, base } = options;
 
   const config = {
     ...base,
-    rules: {},
+    rules: base.rules || {},
   };
 
   return Object.keys(config)
