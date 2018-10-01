@@ -9,7 +9,7 @@
     "eslint-config"
   ],
   "author": "Philip Bordallo",
-  "homepage": "https://github.com/philipbordallo/eslint-config/packages/eslint-config#readme",
+  "homepage": "https://github.com/philipbordallo/eslint-config/tree/master/packages/eslint-config-react#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/philipbordallo/eslint-config.git"

@@ -3,7 +3,7 @@
 
 [![NPM Version][npm-img]][npm-url]
 
-See [`src/configs/default.js`](../../src/configs/default.js) for how it's fully setup.
+See [`src/configs/default.js`](../../src/configs/default.js) for how it's fully setup or check the [generated file](https://unpkg.com/@philipbordallo/eslint-config).
 
 
 ## Install

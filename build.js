@@ -1,8 +1,7 @@
 import fs from 'fs';
-import path from 'path';
 
-const CONFIGS_PATH = path.resolve(__dirname, 'src', 'configs');
-const PACKAGES_PATH = path.resolve(__dirname, 'packages');
+import { CONFIGS_PATH, PACKAGES_PATH } from './paths';
+
 
 const TEMPLATE = '// THIS IS A GENERATED FILE\nmodule.exports={{ data }};';
 
@@ -23,7 +22,7 @@ async function buildConfig(file) {
       fs.writeFileSync(file, generatedData);
     })
     .then(
-      () => console.log(`  Finished building ${name} config to ./packages/${packageName}`),
+      () => console.log(`Finished building ${name} config to ./packages/${packageName}`),
       (error) => console.log(error)
     );
 }
