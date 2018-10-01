@@ -7,7 +7,11 @@ import info from './package.json';
 
 const writeFileAsync = promisify(fs.writeFile);
 
-
+/**
+ * Update all packages to latest version
+ *
+ * @param {string} file
+ */
 async function updateVersion(file) {
   const { default: config } = await import(`${CONFIGS_PATH}/${file}`);
   const { packageName } = config;

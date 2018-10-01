@@ -1,3 +1,4 @@
+import path from 'path';
 import fs from 'fs';
 
 import { CONFIGS_PATH, PACKAGES_PATH } from './paths';
