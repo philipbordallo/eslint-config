@@ -22,17 +22,17 @@ async function updateVersion(file) {
   if (info.version !== packageInfo.version) {
     const newPackageInfo = {
       ...packageInfo,
-      version: info.version
+      version: info.version,
     };
 
     writeFileAsync(packageInfoFile, JSON.stringify(newPackageInfo, null, '  '))
       .then(
         () => console.log(`Updated ${packageName} to ${info.version}`),
-        (error) => console.log(error)
+        error => console.log(error),
       );
   }
 }
 
 fs.readdirSync(CONFIGS_PATH)
-  .filter((file) => file !== '.DS_Store')
+  .filter(file => file !== '.DS_Store')
   .forEach(updateVersion);

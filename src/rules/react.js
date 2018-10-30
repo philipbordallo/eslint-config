@@ -183,7 +183,7 @@ export default {
   'react/no-redundant-should-component-update': ERROR,
   'react/no-unused-state': ERROR,
   'react/no-typos': ERROR,
-  'react/jsx-one-expression-per-line': [ERROR, { allow: 'single-child' }],
+  'react/jsx-one-expression-per-line': OFF,
   'react/no-access-state-in-setstate': ERROR,
   'react/no-this-in-sfc': ERROR,
   'react/jsx-max-depth': OFF,

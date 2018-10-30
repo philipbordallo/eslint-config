@@ -19,15 +19,15 @@ async function buildConfig(file) {
     .then((data) => {
       const stringifiedData = JSON.stringify(data);
       const generatedData = TEMPLATE.replace(/{{ data }}/, stringifiedData);
-      const file = path.resolve(PACKAGES_PATH, packageName, 'index.js');
-      fs.writeFileSync(file, generatedData);
+      const packageFile = path.resolve(PACKAGES_PATH, packageName, 'index.js');
+      fs.writeFileSync(packageFile, generatedData);
     })
     .then(
       () => console.log(`Finished building ${name} config to ./packages/${packageName}`),
-      (error) => console.log(error)
+      error => console.log(error),
     );
 }
 
 fs.readdirSync(CONFIGS_PATH)
-  .filter((file) => file !== '.DS_Store')
+  .filter(file => file !== '.DS_Store')
   .forEach(buildConfig);

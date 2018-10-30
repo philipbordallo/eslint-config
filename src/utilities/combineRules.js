@@ -11,14 +11,14 @@ async function combineRules(rulesList) {
     .reduce(async (collection, definitions) => {
       const isEnabled = rulesList[definitions];
 
-      let { default: rules} = await import(`../rules/${definitions}`);
+      let { default: rules } = await import(`../rules/${definitions}`);
       if (!isEnabled) rules = await disableRules(rules);
 
       const previousRules = await collection;
 
       return {
         ...previousRules,
-        ...rules
+        ...rules,
       };
     }, Promise.resolve({}));
 }
