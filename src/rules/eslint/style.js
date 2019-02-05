@@ -42,7 +42,7 @@ export default {
   'id-blacklist': OFF,
   'id-length': OFF,
   'id-match': OFF,
-  'implicit-arrow-linebreak': [ERROR, 'beside'],
+  'implicit-arrow-linebreak': OFF,
   'indent': [ERROR, 2, {
     SwitchCase: 1,
     VariableDeclarator: 1,
