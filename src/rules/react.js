@@ -25,6 +25,7 @@ export default {
     allowMultiline: true,
     spacing: { objectLiterals: 'never' },
   }],
+  'react/jsx-fragments': [ERROR, 'element'],
   'react/jsx-handler-names': [ERROR, {
     eventHandlerPrefix: 'handle',
     eventHandlerPropPrefix: 'on',
