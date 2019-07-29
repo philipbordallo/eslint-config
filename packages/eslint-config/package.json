@@ -1,6 +1,6 @@
 {
   "name": "@philipbordallo/eslint-config",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Personal ESLint config",
   "main": "index.js",
   "license": "MIT",
