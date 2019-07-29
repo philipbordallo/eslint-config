@@ -482,6 +482,24 @@ Array [
     "endLine": 91,
     "fix": Object {
       "range": Array [
+        1132,
+        1132,
+      ],
+      "text": " ",
+    },
+    "line": 91,
+    "message": "A space is required after ','.",
+    "messageId": "missing",
+    "nodeType": "Punctuator",
+    "ruleId": "comma-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "endColumn": 12,
+    "endLine": 91,
+    "fix": Object {
+      "range": Array [
         1130,
         1131,
       ],
@@ -495,70 +513,16 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 11,
-    "endColumn": 12,
-    "endLine": 91,
-    "fix": Object {
-      "range": Array [
-        1132,
-        1132,
-      ],
-      "text": " ",
-    },
-    "line": 91,
-    "message": "A space is required after ','.",
-    "messageId": "missing",
-    "nodeType": "Punctuator",
-    "ruleId": "comma-spacing",
-    "severity": 2,
-  },
-  Object {
-    "column": 29,
-    "endColumn": 30,
-    "endLine": 92,
-    "fix": Object {
-      "range": Array [
-        1165,
-        1165,
-      ],
-      "text": " ",
-    },
-    "line": 92,
-    "message": "A space is required after ','.",
-    "messageId": "missing",
-    "nodeType": "Punctuator",
-    "ruleId": "comma-spacing",
-    "severity": 2,
-  },
-  Object {
-    "column": 29,
-    "endColumn": 30,
-    "endLine": 92,
-    "fix": Object {
-      "range": Array [
-        1163,
-        1164,
-      ],
-      "text": "",
-    },
-    "line": 92,
-    "message": "There should be no space before ','.",
-    "messageId": "unexpected",
-    "nodeType": "Punctuator",
-    "ruleId": "comma-spacing",
-    "severity": 2,
-  },
-  Object {
     "column": 6,
     "fix": Object {
       "range": Array [
-        1231,
-        1238,
+        1196,
+        1203,
       ],
       "text": ",
      ",
     },
-    "line": 99,
+    "line": 98,
     "message": "',' should be placed last.",
     "messageId": "expectedCommaLast",
     "nodeType": "Property",
@@ -569,12 +533,12 @@ Array [
     "column": 9,
     "fix": Object {
       "range": Array [
-        1289,
-        1290,
+        1254,
+        1255,
       ],
       "text": "",
     },
-    "line": 105,
+    "line": 104,
     "message": "There should be no space before ']'.",
     "messageId": "unexpectedSpaceBefore",
     "nodeType": "MemberExpression",
@@ -585,12 +549,12 @@ Array [
     "column": 4,
     "fix": Object {
       "range": Array [
-        1297,
-        1298,
+        1262,
+        1263,
       ],
       "text": "",
     },
-    "line": 106,
+    "line": 105,
     "message": "There should be no space after '['.",
     "messageId": "unexpectedSpaceAfter",
     "nodeType": "MemberExpression",
@@ -601,12 +565,12 @@ Array [
     "column": 11,
     "fix": Object {
       "range": Array [
-        1317,
-        1318,
+        1282,
+        1283,
       ],
       "text": "",
     },
-    "line": 107,
+    "line": 106,
     "message": "There should be no space after '['.",
     "messageId": "unexpectedSpaceAfter",
     "nodeType": "Property",
@@ -617,12 +581,12 @@ Array [
     "column": 15,
     "fix": Object {
       "range": Array [
-        1319,
-        1320,
+        1284,
+        1285,
       ],
       "text": "",
     },
-    "line": 107,
+    "line": 106,
     "message": "There should be no space before ']'.",
     "messageId": "unexpectedSpaceBefore",
     "nodeType": "Property",
@@ -633,12 +597,12 @@ Array [
     "column": 8,
     "fix": Object {
       "range": Array [
-        1336,
-        1337,
+        1301,
+        1302,
       ],
       "text": "",
     },
-    "line": 108,
+    "line": 107,
     "message": "There should be no space after '['.",
     "messageId": "unexpectedSpaceAfter",
     "nodeType": "MemberExpression",
@@ -649,12 +613,12 @@ Array [
     "column": 14,
     "fix": Object {
       "range": Array [
-        1340,
-        1341,
+        1305,
+        1306,
       ],
       "text": "",
     },
-    "line": 108,
+    "line": 107,
     "message": "There should be no space before ']'.",
     "messageId": "unexpectedSpaceBefore",
     "nodeType": "MemberExpression",
@@ -665,12 +629,12 @@ Array [
     "column": 1,
     "fix": Object {
       "range": Array [
-        1369,
-        1370,
+        1334,
+        1335,
       ],
       "text": "",
     },
-    "line": 111,
+    "line": 110,
     "message": "Unexpected newline between function name and paren.",
     "messageId": "unexpected",
     "nodeType": "CallExpression",
@@ -679,7 +643,7 @@ Array [
   },
   Object {
     "column": 1,
-    "line": 113,
+    "line": 112,
     "message": "Unexpected newline between function name and paren.",
     "messageId": "unexpected",
     "nodeType": "CallExpression",
@@ -689,8 +653,8 @@ Array [
   Object {
     "column": 21,
     "endColumn": 34,
-    "endLine": 117,
-    "line": 117,
+    "endLine": 116,
+    "line": 116,
     "message": "Unexpected unnamed function.",
     "messageId": "unnamed",
     "nodeType": "FunctionExpression",
@@ -700,15 +664,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 2,
-    "endLine": 122,
+    "endLine": 121,
     "fix": Object {
       "range": Array [
-        1495,
-        1496,
+        1460,
+        1461,
       ],
       "text": "",
     },
-    "line": 122,
+    "line": 121,
     "message": "Unexpected newline before '('.",
     "messageId": "unexpectedBefore",
     "nodeType": "Punctuator",
@@ -718,15 +682,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 2,
-    "endLine": 126,
+    "endLine": 125,
     "fix": Object {
       "range": Array [
-        1544,
-        1545,
+        1509,
+        1510,
       ],
       "text": "",
     },
-    "line": 126,
+    "line": 125,
     "message": "Unexpected newline before '('.",
     "messageId": "unexpectedBefore",
     "nodeType": "Punctuator",
@@ -736,16 +700,16 @@ Array [
   Object {
     "column": 6,
     "endColumn": 7,
-    "endLine": 130,
+    "endLine": 129,
     "fix": Object {
       "range": Array [
-        1590,
-        1590,
+        1555,
+        1555,
       ],
       "text": "
 ",
     },
-    "line": 130,
+    "line": 129,
     "message": "Expected newline before ')'.",
     "messageId": "expectedBefore",
     "nodeType": "Punctuator",
@@ -755,16 +719,16 @@ Array [
   Object {
     "column": 6,
     "endColumn": 7,
-    "endLine": 134,
+    "endLine": 133,
     "fix": Object {
       "range": Array [
-        1630,
-        1630,
+        1595,
+        1595,
       ],
       "text": "
 ",
     },
-    "line": 134,
+    "line": 133,
     "message": "Expected newline before ')'.",
     "messageId": "expectedBefore",
     "nodeType": "Punctuator",
@@ -774,15 +738,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 1,
-    "endLine": 138,
+    "endLine": 137,
     "fix": Object {
       "range": Array [
-        1657,
-        1657,
+        1622,
+        1622,
       ],
       "text": "  ",
     },
-    "line": 138,
+    "line": 137,
     "message": "Expected indentation of 2 spaces but found 0.",
     "messageId": "wrongIndentation",
     "nodeType": "Keyword",
@@ -792,15 +756,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 1,
-    "endLine": 140,
+    "endLine": 139,
     "fix": Object {
       "range": Array [
-        1678,
-        1678,
+        1643,
+        1643,
       ],
       "text": "  ",
     },
-    "line": 140,
+    "line": 139,
     "message": "Expected indentation of 2 spaces but found 0.",
     "messageId": "wrongIndentation",
     "nodeType": "Keyword",
@@ -810,15 +774,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 1,
-    "endLine": 145,
+    "endLine": 144,
     "fix": Object {
       "range": Array [
-        1711,
-        1711,
+        1676,
+        1676,
       ],
       "text": "  ",
     },
-    "line": 145,
+    "line": 144,
     "message": "Expected indentation of 2 spaces but found 0.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -828,11 +792,29 @@ Array [
   Object {
     "column": 1,
     "endColumn": 1,
+    "endLine": 148,
+    "fix": Object {
+      "range": Array [
+        1703,
+        1703,
+      ],
+      "text": "  ",
+    },
+    "line": 148,
+    "message": "Expected indentation of 2 spaces but found 0.",
+    "messageId": "wrongIndentation",
+    "nodeType": "Punctuator",
+    "ruleId": "indent",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 1,
     "endLine": 149,
     "fix": Object {
       "range": Array [
-        1738,
-        1738,
+        1708,
+        1708,
       ],
       "text": "  ",
     },
@@ -845,34 +827,16 @@ Array [
   },
   Object {
     "column": 1,
-    "endColumn": 1,
-    "endLine": 150,
-    "fix": Object {
-      "range": Array [
-        1743,
-        1743,
-      ],
-      "text": "  ",
-    },
-    "line": 150,
-    "message": "Expected indentation of 2 spaces but found 0.",
-    "messageId": "wrongIndentation",
-    "nodeType": "Punctuator",
-    "ruleId": "indent",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
     "endColumn": 5,
-    "endLine": 155,
+    "endLine": 154,
     "fix": Object {
       "range": Array [
-        1789,
-        1793,
+        1754,
+        1758,
       ],
       "text": "  ",
     },
-    "line": 155,
+    "line": 154,
     "message": "Expected indentation of 2 spaces but found 4.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -882,15 +846,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 5,
-    "endLine": 161,
+    "endLine": 160,
     "fix": Object {
       "range": Array [
-        1857,
-        1861,
+        1822,
+        1826,
       ],
       "text": "  ",
     },
-    "line": 161,
+    "line": 160,
     "message": "Expected indentation of 2 spaces but found 4.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -900,15 +864,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 5,
-    "endLine": 165,
+    "endLine": 164,
     "fix": Object {
       "range": Array [
-        1881,
-        1885,
+        1846,
+        1850,
       ],
       "text": "  ",
     },
-    "line": 165,
+    "line": 164,
     "message": "Expected indentation of 2 spaces but found 4.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -918,15 +882,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 7,
-    "endLine": 166,
+    "endLine": 165,
     "fix": Object {
       "range": Array [
-        1890,
-        1896,
+        1855,
+        1861,
       ],
       "text": "  ",
     },
-    "line": 166,
+    "line": 165,
     "message": "Expected indentation of 2 spaces but found 6.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -936,15 +900,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 2,
-    "endLine": 167,
+    "endLine": 166,
     "fix": Object {
       "range": Array [
-        1900,
-        1901,
+        1865,
+        1866,
       ],
       "text": "",
     },
-    "line": 167,
+    "line": 166,
     "message": "Unexpected newline before '('.",
     "messageId": "unexpectedBefore",
     "nodeType": "Punctuator",
@@ -954,15 +918,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 5,
-    "endLine": 170,
+    "endLine": 169,
     "fix": Object {
       "range": Array [
-        1922,
-        1926,
+        1887,
+        1891,
       ],
       "text": "  ",
     },
-    "line": 170,
+    "line": 169,
     "message": "Expected indentation of 2 spaces but found 4.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -972,15 +936,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 1,
-    "endLine": 171,
+    "endLine": 170,
     "fix": Object {
       "range": Array [
-        1931,
-        1931,
+        1896,
+        1896,
       ],
       "text": "  ",
     },
-    "line": 171,
+    "line": 170,
     "message": "Expected indentation of 2 spaces but found 0.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -990,15 +954,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 7,
-    "endLine": 172,
+    "endLine": 171,
     "fix": Object {
       "range": Array [
-        1936,
-        1942,
+        1901,
+        1907,
       ],
       "text": "  ",
     },
-    "line": 172,
+    "line": 171,
     "message": "Expected indentation of 2 spaces but found 6.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -1008,15 +972,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 5,
-    "endLine": 176,
+    "endLine": 175,
     "fix": Object {
       "range": Array [
-        1969,
-        1973,
+        1934,
+        1938,
       ],
       "text": "  ",
     },
-    "line": 176,
+    "line": 175,
     "message": "Expected indentation of 2 spaces but found 4.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -1026,15 +990,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 1,
-    "endLine": 177,
+    "endLine": 176,
     "fix": Object {
       "range": Array [
-        1981,
-        1981,
+        1946,
+        1946,
       ],
       "text": "  ",
     },
-    "line": 177,
+    "line": 176,
     "message": "Expected indentation of 2 spaces but found 0.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -1044,15 +1008,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 7,
-    "endLine": 178,
+    "endLine": 177,
     "fix": Object {
       "range": Array [
-        1989,
-        1995,
+        1954,
+        1960,
       ],
       "text": "  ",
     },
-    "line": 178,
+    "line": 177,
     "message": "Expected indentation of 2 spaces but found 6.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -1062,15 +1026,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 1,
-    "endLine": 182,
+    "endLine": 181,
     "fix": Object {
       "range": Array [
-        2028,
-        2028,
+        1993,
+        1993,
       ],
       "text": "  ",
     },
-    "line": 182,
+    "line": 181,
     "message": "Expected indentation of 2 spaces but found 0.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -1080,15 +1044,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 1,
-    "endLine": 184,
+    "endLine": 183,
     "fix": Object {
       "range": Array [
-        2043,
-        2043,
+        2008,
+        2008,
       ],
       "text": "  ",
     },
-    "line": 184,
+    "line": 183,
     "message": "Expected indentation of 2 spaces but found 0.",
     "messageId": "wrongIndentation",
     "nodeType": "Punctuator",
@@ -1099,12 +1063,12 @@ Array [
     "column": 16,
     "fix": Object {
       "range": Array [
-        2060,
-        2065,
+        2025,
+        2030,
       ],
       "text": " =  ",
     },
-    "line": 186,
+    "line": 185,
     "message": "There should be no line break before or after '='.",
     "nodeType": "VariableDeclarator",
     "ruleId": "operator-linebreak",
@@ -1114,13 +1078,13 @@ Array [
     "column": 14,
     "fix": Object {
       "range": Array [
-        2074,
-        2079,
+        2039,
+        2044,
       ],
       "text": "
   : ",
     },
-    "line": 187,
+    "line": 186,
     "message": "':' should be placed at the beginning of the line.",
     "nodeType": "ConditionalExpression",
     "ruleId": "operator-linebreak",
@@ -1129,15 +1093,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 3,
-    "endLine": 188,
+    "endLine": 187,
     "fix": Object {
       "range": Array [
-        2077,
-        2079,
+        2042,
+        2044,
       ],
       "text": "    ",
     },
-    "line": 188,
+    "line": 187,
     "message": "Expected indentation of 4 spaces but found 2.",
     "messageId": "wrongIndentation",
     "nodeType": "Identifier",
@@ -1148,12 +1112,12 @@ Array [
     "column": 20,
     "fix": Object {
       "range": Array [
-        2121,
-        2121,
+        2086,
+        2086,
       ],
       "text": " ",
     },
-    "line": 192,
+    "line": 191,
     "message": "A space is required after '{'.",
     "nodeType": "ObjectExpression",
     "ruleId": "object-curly-spacing",
@@ -1163,12 +1127,12 @@ Array [
     "column": 25,
     "fix": Object {
       "range": Array [
-        2125,
-        2125,
+        2090,
+        2090,
       ],
       "text": " ",
     },
-    "line": 192,
+    "line": 191,
     "message": "Missing space before value for key 'key'.",
     "messageId": "missingValue",
     "nodeType": "Literal",
@@ -1179,12 +1143,12 @@ Array [
     "column": 32,
     "fix": Object {
       "range": Array [
-        2132,
-        2132,
+        2097,
+        2097,
       ],
       "text": " ",
     },
-    "line": 192,
+    "line": 191,
     "message": "A space is required before '}'.",
     "nodeType": "ObjectExpression",
     "ruleId": "object-curly-spacing",
@@ -1194,12 +1158,12 @@ Array [
     "column": 14,
     "fix": Object {
       "range": Array [
-        2188,
-        2194,
+        2153,
+        2159,
       ],
       "text": "",
     },
-    "line": 195,
+    "line": 194,
     "message": "Extra space before value for key 'key'.",
     "messageId": "extraValue",
     "nodeType": "Literal",
@@ -1209,16 +1173,16 @@ Array [
   Object {
     "column": 17,
     "endColumn": 18,
-    "endLine": 200,
+    "endLine": 199,
     "fix": Object {
       "range": Array [
-        2244,
-        2244,
+        2209,
+        2209,
       ],
       "text": "
 ",
     },
-    "line": 200,
+    "line": 199,
     "message": "Closing curly brace appears on the same line as the subsequent block.",
     "messageId": "sameLineClose",
     "nodeType": "Punctuator",
@@ -1229,12 +1193,12 @@ Array [
     "column": 18,
     "fix": Object {
       "range": Array [
-        2244,
-        2244,
+        2209,
+        2209,
       ],
       "text": " ",
     },
-    "line": 200,
+    "line": 199,
     "message": "Expected space(s) before \\"else\\".",
     "messageId": "expectedBefore",
     "nodeType": null,
@@ -1244,16 +1208,16 @@ Array [
   Object {
     "column": 44,
     "endColumn": 45,
-    "endLine": 200,
+    "endLine": 199,
     "fix": Object {
       "range": Array [
-        2271,
-        2271,
+        2236,
+        2236,
       ],
       "text": "
 ",
     },
-    "line": 200,
+    "line": 199,
     "message": "Closing curly brace appears on the same line as the subsequent block.",
     "messageId": "sameLineClose",
     "nodeType": "Punctuator",
@@ -1264,12 +1228,12 @@ Array [
     "column": 45,
     "fix": Object {
       "range": Array [
-        2271,
-        2271,
+        2236,
+        2236,
       ],
       "text": " ",
     },
-    "line": 200,
+    "line": 199,
     "message": "Expected space(s) before \\"else\\".",
     "messageId": "expectedBefore",
     "nodeType": null,
@@ -1279,16 +1243,16 @@ Array [
   Object {
     "column": 3,
     "endColumn": 4,
-    "endLine": 210,
+    "endLine": 209,
     "fix": Object {
       "range": Array [
-        2349,
-        2349,
+        2314,
+        2314,
       ],
       "text": "
 ",
     },
-    "line": 208,
+    "line": 207,
     "message": "Expected blank line between class members.",
     "messageId": "always",
     "nodeType": "MethodDefinition",
@@ -1298,11 +1262,30 @@ Array [
   Object {
     "column": 3,
     "endColumn": 11,
+    "endLine": 210,
+    "fix": Object {
+      "range": Array [
+        2340,
+        2340,
+      ],
+      "text": "
+",
+    },
+    "line": 210,
+    "message": "Expected blank line between class members.",
+    "messageId": "always",
+    "nodeType": "MethodDefinition",
+    "ruleId": "lines-between-class-members",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 15,
     "endLine": 211,
     "fix": Object {
       "range": Array [
-        2375,
-        2375,
+        2351,
+        2351,
       ],
       "text": "
 ",
@@ -1315,27 +1298,8 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 3,
-    "endColumn": 15,
-    "endLine": 212,
-    "fix": Object {
-      "range": Array [
-        2386,
-        2386,
-      ],
-      "text": "
-",
-    },
-    "line": 212,
-    "message": "Expected blank line between class members.",
-    "messageId": "always",
-    "nodeType": "MethodDefinition",
-    "ruleId": "lines-between-class-members",
-    "severity": 2,
-  },
-  Object {
     "column": 1,
-    "line": 218,
+    "line": 217,
     "message": "This line has a length of 448. Maximum allowed is 100.",
     "messageId": "max",
     "nodeType": "Program",
@@ -1345,8 +1309,8 @@ Array [
   Object {
     "column": 1,
     "endColumn": 19,
-    "endLine": 223,
-    "line": 223,
+    "endLine": 222,
+    "line": 222,
     "message": "Function 'maxParams' has too many parameters (4). Maximum allowed is 3.",
     "messageId": "exceed",
     "nodeType": "FunctionDeclaration",
@@ -1355,7 +1319,7 @@ Array [
   },
   Object {
     "column": 18,
-    "line": 229,
+    "line": 228,
     "message": "A constructor name should not start with a lowercase letter.",
     "messageId": "lower",
     "nodeType": "NewExpression",
@@ -1365,11 +1329,29 @@ Array [
   Object {
     "column": 18,
     "endColumn": 27,
+    "endLine": 232,
+    "fix": Object {
+      "range": Array [
+        2987,
+        2987,
+      ],
+      "text": "()",
+    },
+    "line": 232,
+    "message": "Missing '()' invoking a constructor.",
+    "messageId": "missing",
+    "nodeType": "NewExpression",
+    "ruleId": "new-parens",
+    "severity": 2,
+  },
+  Object {
+    "column": 28,
+    "endColumn": 35,
     "endLine": 233,
     "fix": Object {
       "range": Array [
-        3022,
-        3022,
+        3023,
+        3023,
       ],
       "text": "()",
     },
@@ -1381,34 +1363,16 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 28,
-    "endColumn": 35,
-    "endLine": 234,
-    "fix": Object {
-      "range": Array [
-        3058,
-        3058,
-      ],
-      "text": "()",
-    },
-    "line": 234,
-    "message": "Missing '()' invoking a constructor.",
-    "messageId": "missing",
-    "nodeType": "NewExpression",
-    "ruleId": "new-parens",
-    "severity": 2,
-  },
-  Object {
     "column": 24,
     "fix": Object {
       "range": Array [
-        3112,
-        3112,
+        3077,
+        3077,
       ],
       "text": "
 ",
     },
-    "line": 238,
+    "line": 237,
     "message": "Expected line break before \`.final\`.",
     "messageId": "expected",
     "nodeType": "Identifier",
@@ -1418,8 +1382,8 @@ Array [
   Object {
     "column": 15,
     "endColumn": 26,
-    "endLine": 242,
-    "line": 242,
+    "endLine": 241,
+    "line": 241,
     "message": "The array literal notation [] is preferable.",
     "messageId": "preferLiteral",
     "nodeType": "NewExpression",
@@ -1429,9 +1393,20 @@ Array [
   Object {
     "column": 15,
     "endColumn": 20,
+    "endLine": 245,
+    "line": 245,
+    "message": "Unexpected use of '|'.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "no-bitwise",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "endColumn": 16,
     "endLine": 246,
     "line": 246,
-    "message": "Unexpected use of '|'.",
+    "message": "Unexpected use of '&'.",
     "messageId": "unexpected",
     "nodeType": "BinaryExpression",
     "ruleId": "no-bitwise",
@@ -1442,17 +1417,6 @@ Array [
     "endColumn": 16,
     "endLine": 247,
     "line": 247,
-    "message": "Unexpected use of '&'.",
-    "messageId": "unexpected",
-    "nodeType": "BinaryExpression",
-    "ruleId": "no-bitwise",
-    "severity": 2,
-  },
-  Object {
-    "column": 11,
-    "endColumn": 16,
-    "endLine": 248,
-    "line": 248,
     "message": "Unexpected use of '^'.",
     "messageId": "unexpected",
     "nodeType": "BinaryExpression",
@@ -1462,8 +1426,8 @@ Array [
   Object {
     "column": 11,
     "endColumn": 14,
-    "endLine": 250,
-    "line": 250,
+    "endLine": 249,
+    "line": 249,
     "message": "Unexpected use of '~'.",
     "messageId": "unexpected",
     "nodeType": "UnaryExpression",
@@ -1473,15 +1437,15 @@ Array [
   Object {
     "column": 11,
     "endColumn": 14,
-    "endLine": 250,
+    "endLine": 249,
     "fix": Object {
       "range": Array [
-        3258,
-        3259,
+        3223,
+        3224,
       ],
       "text": "",
     },
-    "line": 250,
+    "line": 249,
     "message": "Unexpected space after unary operator '~'.",
     "messageId": "unexpectedAfter",
     "nodeType": "UnaryExpression",
@@ -1491,8 +1455,8 @@ Array [
   Object {
     "column": 11,
     "endColumn": 17,
-    "endLine": 252,
-    "line": 252,
+    "endLine": 251,
+    "line": 251,
     "message": "Unexpected use of '<<'.",
     "messageId": "unexpected",
     "nodeType": "BinaryExpression",
@@ -1502,8 +1466,8 @@ Array [
   Object {
     "column": 11,
     "endColumn": 17,
-    "endLine": 253,
-    "line": 253,
+    "endLine": 252,
+    "line": 252,
     "message": "Unexpected use of '>>'.",
     "messageId": "unexpected",
     "nodeType": "BinaryExpression",
@@ -1513,8 +1477,8 @@ Array [
   Object {
     "column": 11,
     "endColumn": 18,
-    "endLine": 254,
-    "line": 254,
+    "endLine": 253,
+    "line": 253,
     "message": "Unexpected use of '>>>'.",
     "messageId": "unexpected",
     "nodeType": "BinaryExpression",
@@ -1524,9 +1488,20 @@ Array [
   Object {
     "column": 1,
     "endColumn": 13,
+    "endLine": 254,
+    "line": 254,
+    "message": "Unexpected use of '|='.",
+    "messageId": "unexpected",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-bitwise",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 13,
     "endLine": 255,
     "line": 255,
-    "message": "Unexpected use of '|='.",
+    "message": "Unexpected use of '&='.",
     "messageId": "unexpected",
     "nodeType": "AssignmentExpression",
     "ruleId": "no-bitwise",
@@ -1537,7 +1512,7 @@ Array [
     "endColumn": 13,
     "endLine": 256,
     "line": 256,
-    "message": "Unexpected use of '&='.",
+    "message": "Unexpected use of '^='.",
     "messageId": "unexpected",
     "nodeType": "AssignmentExpression",
     "ruleId": "no-bitwise",
@@ -1545,10 +1520,10 @@ Array [
   },
   Object {
     "column": 1,
-    "endColumn": 13,
+    "endColumn": 14,
     "endLine": 257,
     "line": 257,
-    "message": "Unexpected use of '^='.",
+    "message": "Unexpected use of '<<='.",
     "messageId": "unexpected",
     "nodeType": "AssignmentExpression",
     "ruleId": "no-bitwise",
@@ -1559,17 +1534,6 @@ Array [
     "endColumn": 14,
     "endLine": 258,
     "line": 258,
-    "message": "Unexpected use of '<<='.",
-    "messageId": "unexpected",
-    "nodeType": "AssignmentExpression",
-    "ruleId": "no-bitwise",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "endColumn": 14,
-    "endLine": 259,
-    "line": 259,
     "message": "Unexpected use of '>>='.",
     "messageId": "unexpected",
     "nodeType": "AssignmentExpression",
@@ -1579,8 +1543,8 @@ Array [
   Object {
     "column": 1,
     "endColumn": 15,
-    "endLine": 260,
-    "line": 260,
+    "endLine": 259,
+    "line": 259,
     "message": "Unexpected use of '>>>='.",
     "messageId": "unexpected",
     "nodeType": "AssignmentExpression",
@@ -1590,8 +1554,8 @@ Array [
   Object {
     "column": 25,
     "endColumn": 28,
-    "endLine": 264,
-    "line": 264,
+    "endLine": 263,
+    "line": 263,
     "message": "Unary operator '++' used.",
     "nodeType": "UpdateExpression",
     "ruleId": "no-plusplus",
@@ -1600,8 +1564,8 @@ Array [
   Object {
     "column": 5,
     "endColumn": 14,
-    "endLine": 266,
-    "line": 266,
+    "endLine": 265,
+    "line": 265,
     "message": "Unexpected use of continue statement.",
     "messageId": "unexpected",
     "nodeType": "ContinueStatement",
@@ -1611,17 +1575,17 @@ Array [
   Object {
     "column": 3,
     "endColumn": 4,
-    "endLine": 280,
+    "endLine": 279,
     "fix": Object {
       "range": Array [
-        3552,
-        3596,
+        3517,
+        3561,
       ],
       "text": "if (anotherCondition) {
     // ...
   }",
     },
-    "line": 278,
+    "line": 277,
     "message": "Unexpected if as the only statement in an else block.",
     "nodeType": "IfStatement",
     "ruleId": "no-lonely-if",
@@ -1630,11 +1594,11 @@ Array [
   Object {
     "column": 3,
     "endColumn": 4,
-    "endLine": 292,
+    "endLine": 291,
     "fix": Object {
       "range": Array [
-        3631,
-        3699,
+        3596,
+        3664,
       ],
       "text": "if (anotherCondition) {
     // ...
@@ -1643,7 +1607,7 @@ Array [
     // ...
   }",
     },
-    "line": 287,
+    "line": 286,
     "message": "Unexpected if as the only statement in an else block.",
     "nodeType": "IfStatement",
     "ruleId": "no-lonely-if",
@@ -1651,7 +1615,7 @@ Array [
   },
   Object {
     "column": 24,
-    "line": 297,
+    "line": 296,
     "message": "Unexpected mix of '&&' and '||'.",
     "nodeType": "LogicalExpression",
     "ruleId": "no-mixed-operators",
@@ -1659,15 +1623,15 @@ Array [
   },
   Object {
     "column": 33,
+    "line": 296,
+    "message": "Unexpected mix of '&&' and '||'.",
+    "nodeType": "LogicalExpression",
+    "ruleId": "no-mixed-operators",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
     "line": 297,
-    "message": "Unexpected mix of '&&' and '||'.",
-    "nodeType": "LogicalExpression",
-    "ruleId": "no-mixed-operators",
-    "severity": 2,
-  },
-  Object {
-    "column": 20,
-    "line": 298,
     "message": "Unexpected mix of '+' and '*'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1675,7 +1639,7 @@ Array [
   },
   Object {
     "column": 24,
-    "line": 298,
+    "line": 297,
     "message": "Unexpected mix of '+' and '*'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1683,7 +1647,7 @@ Array [
   },
   Object {
     "column": 20,
-    "line": 300,
+    "line": 299,
     "message": "Unexpected mix of '%' and '**'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1691,7 +1655,7 @@ Array [
   },
   Object {
     "column": 24,
-    "line": 300,
+    "line": 299,
     "message": "Unexpected mix of '%' and '**'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1699,7 +1663,7 @@ Array [
   },
   Object {
     "column": 20,
-    "line": 301,
+    "line": 300,
     "message": "Unexpected mix of '%' and '+'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1707,7 +1671,7 @@ Array [
   },
   Object {
     "column": 24,
-    "line": 301,
+    "line": 300,
     "message": "Unexpected mix of '%' and '+'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1715,7 +1679,7 @@ Array [
   },
   Object {
     "column": 20,
-    "line": 302,
+    "line": 301,
     "message": "Unexpected mix of '%' and '-'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1723,7 +1687,7 @@ Array [
   },
   Object {
     "column": 24,
-    "line": 302,
+    "line": 301,
     "message": "Unexpected mix of '%' and '-'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1731,7 +1695,7 @@ Array [
   },
   Object {
     "column": 20,
-    "line": 305,
+    "line": 304,
     "message": "Unexpected mix of '**' and '+'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1739,7 +1703,7 @@ Array [
   },
   Object {
     "column": 25,
-    "line": 305,
+    "line": 304,
     "message": "Unexpected mix of '**' and '+'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1747,7 +1711,7 @@ Array [
   },
   Object {
     "column": 20,
-    "line": 306,
+    "line": 305,
     "message": "Unexpected mix of '**' and '-'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1755,7 +1719,7 @@ Array [
   },
   Object {
     "column": 25,
-    "line": 306,
+    "line": 305,
     "message": "Unexpected mix of '**' and '-'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1763,7 +1727,7 @@ Array [
   },
   Object {
     "column": 20,
-    "line": 307,
+    "line": 306,
     "message": "Unexpected mix of '**' and '*'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1771,7 +1735,7 @@ Array [
   },
   Object {
     "column": 25,
-    "line": 307,
+    "line": 306,
     "message": "Unexpected mix of '**' and '*'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1779,7 +1743,7 @@ Array [
   },
   Object {
     "column": 20,
-    "line": 308,
+    "line": 307,
     "message": "Unexpected mix of '**' and '/'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1787,7 +1751,7 @@ Array [
   },
   Object {
     "column": 25,
-    "line": 308,
+    "line": 307,
     "message": "Unexpected mix of '**' and '/'.",
     "nodeType": "BinaryExpression",
     "ruleId": "no-mixed-operators",
@@ -1795,7 +1759,7 @@ Array [
   },
   Object {
     "column": 20,
-    "line": 309,
+    "line": 308,
     "message": "Unexpected mix of '&&' and '||'.",
     "nodeType": "LogicalExpression",
     "ruleId": "no-mixed-operators",
@@ -1803,7 +1767,7 @@ Array [
   },
   Object {
     "column": 25,
-    "line": 309,
+    "line": 308,
     "message": "Unexpected mix of '&&' and '||'.",
     "nodeType": "LogicalExpression",
     "ruleId": "no-mixed-operators",
@@ -1812,8 +1776,8 @@ Array [
   Object {
     "column": 24,
     "endColumn": 57,
-    "endLine": 313,
-    "line": 313,
+    "endLine": 312,
+    "line": 312,
     "message": "Unexpected chained assignment.",
     "nodeType": "AssignmentExpression",
     "ruleId": "no-multi-assign",
@@ -1822,15 +1786,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 1,
-    "endLine": 318,
+    "endLine": 317,
     "fix": Object {
       "range": Array [
-        4176,
-        4178,
+        4141,
+        4143,
       ],
       "text": "",
     },
-    "line": 314,
+    "line": 313,
     "message": "More than 2 blank lines not allowed.",
     "nodeType": "Program",
     "ruleId": "no-multiple-empty-lines",
@@ -1839,8 +1803,8 @@ Array [
   Object {
     "column": 21,
     "endColumn": 60,
-    "endLine": 322,
-    "line": 322,
+    "endLine": 321,
+    "line": 321,
     "message": "Do not nest ternary expressions.",
     "nodeType": "ConditionalExpression",
     "ruleId": "no-nested-ternary",
@@ -1849,8 +1813,8 @@ Array [
   Object {
     "column": 14,
     "endColumn": 26,
-    "endLine": 326,
-    "line": 326,
+    "endLine": 325,
+    "line": 325,
     "message": "The object literal notation {} is preferrable.",
     "nodeType": "NewExpression",
     "ruleId": "no-new-object",
@@ -1859,8 +1823,8 @@ Array [
   Object {
     "column": 1,
     "endColumn": 9,
-    "endLine": 331,
-    "line": 331,
+    "endLine": 330,
+    "line": 330,
     "message": "Unary operator '++' used.",
     "nodeType": "UpdateExpression",
     "ruleId": "no-plusplus",
@@ -1869,8 +1833,8 @@ Array [
   Object {
     "column": 1,
     "endColumn": 9,
-    "endLine": 332,
-    "line": 332,
+    "endLine": 331,
+    "line": 331,
     "message": "Unary operator '--' used.",
     "nodeType": "UpdateExpression",
     "ruleId": "no-plusplus",
@@ -1879,8 +1843,8 @@ Array [
   Object {
     "column": 1,
     "endColumn": 2,
-    "endLine": 338,
-    "line": 336,
+    "endLine": 337,
+    "line": 335,
     "message": "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.",
     "nodeType": "ForInStatement",
     "ruleId": "no-restricted-syntax",
@@ -1889,8 +1853,8 @@ Array [
   Object {
     "column": 1,
     "endColumn": 2,
-    "endLine": 342,
-    "line": 340,
+    "endLine": 341,
+    "line": 339,
     "message": "iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.",
     "nodeType": "ForOfStatement",
     "ruleId": "no-restricted-syntax",
@@ -1899,8 +1863,8 @@ Array [
   Object {
     "column": 1,
     "endColumn": 16,
-    "endLine": 344,
-    "line": 344,
+    "endLine": 343,
+    "line": 343,
     "message": "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.",
     "nodeType": "LabeledStatement",
     "ruleId": "no-restricted-syntax",
@@ -1909,8 +1873,8 @@ Array [
   Object {
     "column": 7,
     "endColumn": 31,
-    "endLine": 348,
-    "line": 348,
+    "endLine": 347,
+    "line": 347,
     "message": "Unexpected dangling '_' in '_underscoreDangle'.",
     "nodeType": "VariableDeclarator",
     "ruleId": "no-underscore-dangle",
@@ -1920,12 +1884,12 @@ Array [
     "column": 33,
     "fix": Object {
       "range": Array [
-        4627,
-        4649,
+        4592,
+        4614,
       ],
       "text": "x === 2",
     },
-    "line": 352,
+    "line": 351,
     "message": "Unnecessary use of boolean literals in conditional expression.",
     "nodeType": "ConditionalExpression",
     "ruleId": "no-unneeded-ternary",
@@ -1935,12 +1899,12 @@ Array [
     "column": 23,
     "fix": Object {
       "range": Array [
-        4669,
-        4685,
+        4634,
+        4650,
       ],
       "text": "!!x",
     },
-    "line": 353,
+    "line": 352,
     "message": "Unnecessary use of boolean literals in conditional expression.",
     "nodeType": "ConditionalExpression",
     "ruleId": "no-unneeded-ternary",
@@ -1950,12 +1914,12 @@ Array [
     "column": 25,
     "fix": Object {
       "range": Array [
-        4707,
-        4716,
+        4672,
+        4681,
       ],
       "text": "x || 1",
     },
-    "line": 354,
+    "line": 353,
     "message": "Unnecessary use of conditional expression for default assignment.",
     "nodeType": "ConditionalExpression",
     "ruleId": "no-unneeded-ternary",
@@ -1964,13 +1928,30 @@ Array [
   Object {
     "column": 1,
     "endColumn": 10,
+    "endLine": 357,
+    "fix": Object {
+      "range": Array [
+        4722,
+        4723,
+      ],
+      "text": "",
+    },
+    "line": 357,
+    "message": "Unexpected whitespace before property bar.",
+    "nodeType": "MemberExpression",
+    "ruleId": "no-whitespace-before-property",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 9,
     "endLine": 358,
     "fix": Object {
       "range": Array [
-        4757,
-        4758,
+        4733,
+        4735,
       ],
-      "text": "",
+      "text": ".",
     },
     "line": 358,
     "message": "Unexpected whitespace before property bar.",
@@ -1984,8 +1965,8 @@ Array [
     "endLine": 359,
     "fix": Object {
       "range": Array [
-        4768,
-        4770,
+        4743,
+        4745,
       ],
       "text": ".",
     },
@@ -2001,8 +1982,8 @@ Array [
     "endLine": 360,
     "fix": Object {
       "range": Array [
-        4778,
-        4780,
+        4753,
+        4755,
       ],
       "text": ".",
     },
@@ -2014,33 +1995,16 @@ Array [
   },
   Object {
     "column": 1,
-    "endColumn": 9,
-    "endLine": 361,
-    "fix": Object {
-      "range": Array [
-        4788,
-        4790,
-      ],
-      "text": ".",
-    },
-    "line": 361,
-    "message": "Unexpected whitespace before property bar.",
-    "nodeType": "MemberExpression",
-    "ruleId": "no-whitespace-before-property",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
     "endColumn": 14,
-    "endLine": 361,
+    "endLine": 360,
     "fix": Object {
       "range": Array [
-        4793,
-        4795,
+        4758,
+        4760,
       ],
       "text": ".",
     },
-    "line": 361,
+    "line": 360,
     "message": "Unexpected whitespace before property baz.",
     "nodeType": "MemberExpression",
     "ruleId": "no-whitespace-before-property",
@@ -2049,33 +2013,16 @@ Array [
   Object {
     "column": 1,
     "endColumn": 9,
-    "endLine": 362,
+    "endLine": 361,
     "fix": Object {
       "range": Array [
-        4803,
-        4805,
+        4768,
+        4770,
       ],
       "text": ".",
     },
-    "line": 362,
+    "line": 361,
     "message": "Unexpected whitespace before property bar.",
-    "nodeType": "MemberExpression",
-    "ruleId": "no-whitespace-before-property",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "endColumn": 14,
-    "endLine": 365,
-    "fix": Object {
-      "range": Array [
-        4833,
-        4835,
-      ],
-      "text": ".",
-    },
-    "line": 364,
-    "message": "Unexpected whitespace before property baz.",
     "nodeType": "MemberExpression",
     "ruleId": "no-whitespace-before-property",
     "severity": 2,
@@ -2083,15 +2030,15 @@ Array [
   Object {
     "column": 3,
     "endColumn": 9,
-    "endLine": 370,
+    "endLine": 369,
     "fix": Object {
       "range": Array [
-        4888,
-        4891,
+        4852,
+        4855,
       ],
       "text": " ",
     },
-    "line": 370,
+    "line": 369,
     "message": "Expected no linebreak before this statement.",
     "nodeType": "ExpressionStatement",
     "ruleId": "nonblock-statement-body-position",
@@ -2100,15 +2047,15 @@ Array [
   Object {
     "column": 3,
     "endColumn": 9,
-    "endLine": 372,
+    "endLine": 371,
     "fix": Object {
       "range": Array [
-        4902,
-        4905,
+        4866,
+        4869,
       ],
       "text": " ",
     },
-    "line": 372,
+    "line": 371,
     "message": "Expected no linebreak before this statement.",
     "nodeType": "ExpressionStatement",
     "ruleId": "nonblock-statement-body-position",
@@ -2118,13 +2065,13 @@ Array [
     "column": 20,
     "fix": Object {
       "range": Array [
-        4958,
-        4958,
+        4922,
+        4922,
       ],
       "text": "
 ",
     },
-    "line": 376,
+    "line": 375,
     "message": "Expected a line break after this opening brace.",
     "nodeType": "ObjectExpression",
     "ruleId": "object-curly-newline",
@@ -2134,13 +2081,13 @@ Array [
     "column": 56,
     "fix": Object {
       "range": Array [
-        4993,
-        4993,
+        4957,
+        4957,
       ],
       "text": "
 ",
     },
-    "line": 376,
+    "line": 375,
     "message": "Expected a line break before this closing brace.",
     "nodeType": "ObjectExpression",
     "ruleId": "object-curly-newline",
@@ -2150,13 +2097,13 @@ Array [
     "column": 14,
     "fix": Object {
       "range": Array [
-        5035,
-        5035,
+        4999,
+        4999,
       ],
       "text": "
 ",
     },
-    "line": 379,
+    "line": 378,
     "message": "Expected a line break after this opening brace.",
     "nodeType": "ObjectExpression",
     "ruleId": "object-curly-newline",
@@ -2166,12 +2113,12 @@ Array [
     "column": 14,
     "fix": Object {
       "range": Array [
-        5035,
-        5035,
+        4999,
+        4999,
       ],
       "text": " ",
     },
-    "line": 379,
+    "line": 378,
     "message": "A space is required after '{'.",
     "nodeType": "ObjectExpression",
     "ruleId": "object-curly-spacing",
@@ -2181,13 +2128,13 @@ Array [
     "column": 48,
     "fix": Object {
       "range": Array [
-        5068,
-        5068,
+        5032,
+        5032,
       ],
       "text": "
 ",
     },
-    "line": 379,
+    "line": 378,
     "message": "Expected a line break before this closing brace.",
     "nodeType": "ObjectExpression",
     "ruleId": "object-curly-newline",
@@ -2197,12 +2144,12 @@ Array [
     "column": 48,
     "fix": Object {
       "range": Array [
-        5068,
-        5068,
+        5032,
+        5032,
       ],
       "text": " ",
     },
-    "line": 379,
+    "line": 378,
     "message": "A space is required before '}'.",
     "nodeType": "ObjectExpression",
     "ruleId": "object-curly-spacing",
@@ -2211,16 +2158,16 @@ Array [
   Object {
     "column": 1,
     "endColumn": 15,
-    "endLine": 384,
+    "endLine": 383,
     "fix": Object {
       "range": Array [
-        5101,
-        5105,
+        5065,
+        5069,
       ],
       "text": ";
   const ",
     },
-    "line": 383,
+    "line": 382,
     "message": "Split 'const' declarations into multiple statements.",
     "nodeType": "VariableDeclaration",
     "ruleId": "one-var",
@@ -2229,15 +2176,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 33,
-    "endLine": 387,
+    "endLine": 386,
     "fix": Object {
       "range": Array [
-        5168,
-        5169,
+        5132,
+        5133,
       ],
       "text": "; let",
     },
-    "line": 387,
+    "line": 386,
     "message": "Split 'let' declarations into multiple statements.",
     "nodeType": "VariableDeclaration",
     "ruleId": "one-var",
@@ -2247,13 +2194,13 @@ Array [
     "column": 20,
     "fix": Object {
       "range": Array [
-        5170,
-        5170,
+        5134,
+        5134,
       ],
       "text": "
 ",
     },
-    "line": 387,
+    "line": 386,
     "message": "Expected variable declaration to be on a new line.",
     "nodeType": "VariableDeclaration",
     "ruleId": "one-var-declaration-per-line",
@@ -2262,15 +2209,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 18,
-    "endLine": 392,
+    "endLine": 391,
     "fix": Object {
       "range": Array [
-        5224,
-        5241,
+        5188,
+        5205,
       ],
       "text": "value += y",
     },
-    "line": 392,
+    "line": 391,
     "message": "Assignment can be replaced with operator assignment.",
     "messageId": "replaced",
     "nodeType": "AssignmentExpression",
@@ -2281,13 +2228,13 @@ Array [
     "column": 12,
     "fix": Object {
       "range": Array [
-        5276,
-        5281,
+        5240,
+        5245,
       ],
       "text": "
   + ",
     },
-    "line": 396,
+    "line": 395,
     "message": "'+' should be placed at the beginning of the line.",
     "nodeType": "BinaryExpression",
     "ruleId": "operator-linebreak",
@@ -2297,13 +2244,13 @@ Array [
     "column": 15,
     "fix": Object {
       "range": Array [
-        5301,
-        5307,
+        5265,
+        5271,
       ],
       "text": "
   || ",
     },
-    "line": 400,
+    "line": 399,
     "message": "'||' should be placed at the beginning of the line.",
     "nodeType": "LogicalExpression",
     "ruleId": "operator-linebreak",
@@ -2313,13 +2260,13 @@ Array [
     "column": 11,
     "fix": Object {
       "range": Array [
-        5369,
-        5371,
+        5333,
+        5335,
       ],
       "text": "
 ",
     },
-    "line": 408,
+    "line": 407,
     "message": "Block must not be padded by blank lines.",
     "nodeType": "BlockStatement",
     "ruleId": "padded-blocks",
@@ -2329,13 +2276,13 @@ Array [
     "column": 1,
     "fix": Object {
       "range": Array [
-        5383,
-        5385,
+        5347,
+        5349,
       ],
       "text": "
 ",
     },
-    "line": 412,
+    "line": 411,
     "message": "Block must not be padded by blank lines.",
     "nodeType": "BlockStatement",
     "ruleId": "padded-blocks",
@@ -2345,13 +2292,13 @@ Array [
     "column": 19,
     "fix": Object {
       "range": Array [
-        5407,
-        5409,
+        5371,
+        5373,
       ],
       "text": "
 ",
     },
-    "line": 414,
+    "line": 413,
     "message": "Block must not be padded by blank lines.",
     "nodeType": "ClassBody",
     "ruleId": "padded-blocks",
@@ -2361,13 +2308,13 @@ Array [
     "column": 1,
     "fix": Object {
       "range": Array [
-        5420,
-        5422,
+        5384,
+        5386,
       ],
       "text": "
 ",
     },
-    "line": 418,
+    "line": 417,
     "message": "Block must not be padded by blank lines.",
     "nodeType": "ClassBody",
     "ruleId": "padded-blocks",
@@ -2377,13 +2324,13 @@ Array [
     "column": 16,
     "fix": Object {
       "range": Array [
-        5442,
-        5444,
+        5406,
+        5408,
       ],
       "text": "
 ",
     },
-    "line": 421,
+    "line": 420,
     "message": "Block must not be padded by blank lines.",
     "nodeType": "SwitchStatement",
     "ruleId": "padded-blocks",
@@ -2393,13 +2340,13 @@ Array [
     "column": 1,
     "fix": Object {
       "range": Array [
-        5474,
-        5476,
+        5438,
+        5440,
       ],
       "text": "
 ",
     },
-    "line": 426,
+    "line": 425,
     "message": "Block must not be padded by blank lines.",
     "nodeType": "SwitchStatement",
     "ruleId": "padded-blocks",
@@ -2408,15 +2355,15 @@ Array [
   Object {
     "column": 19,
     "endColumn": 44,
-    "endLine": 430,
+    "endLine": 429,
     "fix": Object {
       "range": Array [
-        5522,
-        5547,
+        5486,
+        5511,
       ],
       "text": "{ ...object}",
     },
-    "line": 430,
+    "line": 429,
     "message": "Use an object spread instead of \`Object.assign\` eg: \`{ ...foo }\`.",
     "messageId": "useSpreadMessage",
     "nodeType": "CallExpression",
@@ -2426,15 +2373,15 @@ Array [
   Object {
     "column": 3,
     "endColumn": 9,
-    "endLine": 435,
+    "endLine": 434,
     "fix": Object {
       "range": Array [
-        5587,
-        5590,
+        5551,
+        5554,
       ],
       "text": "\\"one\\"",
     },
-    "line": 435,
+    "line": 434,
     "message": "Inconsistently quoted property 'one' found.",
     "nodeType": "Property",
     "ruleId": "quote-props",
@@ -2443,15 +2390,15 @@ Array [
   Object {
     "column": 3,
     "endColumn": 9,
-    "endLine": 436,
+    "endLine": 435,
     "fix": Object {
       "range": Array [
-        5597,
-        5600,
+        5561,
+        5564,
       ],
       "text": "\\"two\\"",
     },
-    "line": 436,
+    "line": 435,
     "message": "Inconsistently quoted property 'two' found.",
     "nodeType": "Property",
     "ruleId": "quote-props",
@@ -2460,15 +2407,15 @@ Array [
   Object {
     "column": 22,
     "endColumn": 30,
-    "endLine": 442,
+    "endLine": 441,
     "fix": Object {
       "range": Array [
-        5660,
-        5668,
+        5624,
+        5632,
       ],
       "text": "'string'",
     },
-    "line": 442,
+    "line": 441,
     "message": "Strings must use singlequote.",
     "nodeType": "Literal",
     "ruleId": "quotes",
@@ -2478,12 +2425,12 @@ Array [
     "column": 21,
     "fix": Object {
       "range": Array [
-        5700,
-        5700,
+        5664,
+        5664,
       ],
       "text": ";",
     },
-    "line": 446,
+    "line": 445,
     "message": "Missing semicolon.",
     "nodeType": "VariableDeclaration",
     "ruleId": "semi",
@@ -2493,12 +2440,12 @@ Array [
     "column": 19,
     "fix": Object {
       "range": Array [
-        5718,
-        5719,
+        5682,
+        5683,
       ],
       "text": "",
     },
-    "line": 447,
+    "line": 446,
     "message": "Unexpected whitespace before semicolon.",
     "nodeType": "ExpressionStatement",
     "ruleId": "semi-spacing",
@@ -2507,8 +2454,8 @@ Array [
   Object {
     "column": 1,
     "endColumn": 2,
-    "endLine": 449,
-    "line": 449,
+    "endLine": 448,
+    "line": 448,
     "message": "Expected this semicolon to be at the end of the previous line.",
     "nodeType": null,
     "ruleId": "semi-style",
@@ -2517,15 +2464,15 @@ Array [
   Object {
     "column": 15,
     "endColumn": 17,
-    "endLine": 453,
+    "endLine": 452,
     "fix": Object {
       "range": Array [
-        5793,
-        5793,
+        5757,
+        5757,
       ],
       "text": " ",
     },
-    "line": 453,
+    "line": 452,
     "message": "Missing space before opening brace.",
     "nodeType": "BlockStatement",
     "ruleId": "space-before-blocks",
@@ -2535,12 +2482,12 @@ Array [
     "column": 25,
     "fix": Object {
       "range": Array [
-        5853,
-        5854,
+        5817,
+        5818,
       ],
       "text": "",
     },
-    "line": 457,
+    "line": 456,
     "message": "Unexpected space before function parentheses.",
     "nodeType": "FunctionDeclaration",
     "ruleId": "space-before-function-paren",
@@ -2550,12 +2497,12 @@ Array [
     "column": 35,
     "fix": Object {
       "range": Array [
-        5894,
-        5895,
+        5858,
+        5859,
       ],
       "text": "",
     },
-    "line": 458,
+    "line": 457,
     "message": "Unexpected space before function parentheses.",
     "nodeType": "FunctionExpression",
     "ruleId": "space-before-function-paren",
@@ -2565,12 +2512,12 @@ Array [
     "column": 33,
     "fix": Object {
       "range": Array [
-        5934,
-        5934,
+        5898,
+        5898,
       ],
       "text": " ",
     },
-    "line": 459,
+    "line": 458,
     "message": "Missing space before function parentheses.",
     "nodeType": "ArrowFunctionExpression",
     "ruleId": "space-before-function-paren",
@@ -2580,12 +2527,12 @@ Array [
     "column": 4,
     "fix": Object {
       "range": Array [
-        5968,
-        5969,
+        5932,
+        5933,
       ],
       "text": "",
     },
-    "line": 463,
+    "line": 462,
     "message": "There should be no spaces inside this paren.",
     "nodeType": "Program",
     "ruleId": "space-in-parens",
@@ -2595,12 +2542,12 @@ Array [
     "column": 14,
     "fix": Object {
       "range": Array [
-        5976,
-        5977,
+        5940,
+        5941,
       ],
       "text": "",
     },
-    "line": 463,
+    "line": 462,
     "message": "There should be no spaces inside this paren.",
     "nodeType": "Program",
     "ruleId": "space-in-parens",
@@ -2610,12 +2557,12 @@ Array [
     "column": 2,
     "fix": Object {
       "range": Array [
-        6002,
-        6003,
+        5966,
+        5967,
       ],
       "text": " + ",
     },
-    "line": 467,
+    "line": 466,
     "message": "Operator '+' must be spaced.",
     "nodeType": "BinaryExpression",
     "ruleId": "space-infix-ops",
@@ -2625,12 +2572,12 @@ Array [
     "column": 2,
     "fix": Object {
       "range": Array [
-        6007,
-        6008,
+        5971,
+        5972,
       ],
       "text": " ? ",
     },
-    "line": 468,
+    "line": 467,
     "message": "Operator '?' must be spaced.",
     "nodeType": "ConditionalExpression",
     "ruleId": "space-infix-ops",
@@ -2639,15 +2586,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 16,
-    "endLine": 472,
+    "endLine": 471,
     "fix": Object {
       "range": Array [
-        6040,
-        6040,
+        6004,
+        6004,
       ],
       "text": " ",
     },
-    "line": 472,
+    "line": 471,
     "message": "Unary word operator 'delete' must be followed by whitespace.",
     "messageId": "wordOperator",
     "nodeType": "UnaryExpression",
@@ -2657,15 +2604,15 @@ Array [
   Object {
     "column": 13,
     "endColumn": 23,
-    "endLine": 473,
+    "endLine": 472,
     "fix": Object {
       "range": Array [
-        6066,
-        6066,
+        6030,
+        6030,
       ],
       "text": " ",
     },
-    "line": 473,
+    "line": 472,
     "message": "Unary word operator 'new' must be followed by whitespace.",
     "messageId": "wordOperator",
     "nodeType": "NewExpression",
@@ -2675,15 +2622,15 @@ Array [
   Object {
     "column": 3,
     "endColumn": 11,
-    "endLine": 476,
+    "endLine": 475,
     "fix": Object {
       "range": Array [
-        6104,
-        6104,
+        6068,
+        6068,
       ],
       "text": " ",
     },
-    "line": 476,
+    "line": 475,
     "message": "Unary word operator 'yield' must be followed by whitespace.",
     "messageId": "wordOperator",
     "nodeType": "YieldExpression",
@@ -2693,15 +2640,15 @@ Array [
   Object {
     "column": 3,
     "endColumn": 13,
-    "endLine": 480,
+    "endLine": 479,
     "fix": Object {
       "range": Array [
-        6147,
-        6147,
+        6111,
+        6111,
       ],
       "text": " ",
     },
-    "line": 480,
+    "line": 479,
     "message": "Unary word operator 'await' must be followed by whitespace.",
     "messageId": "wordOperator",
     "nodeType": "AwaitExpression",
@@ -2711,15 +2658,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 17,
-    "endLine": 485,
+    "endLine": 484,
     "fix": Object {
       "range": Array [
-        6178,
-        6178,
+        6142,
+        6142,
       ],
       "text": " ",
     },
-    "line": 485,
+    "line": 484,
     "message": "Expected space or tab after '//' in comment.",
     "nodeType": "Line",
     "ruleId": "spaced-comment",
@@ -2728,15 +2675,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 19,
-    "endLine": 486,
+    "endLine": 485,
     "fix": Object {
       "range": Array [
-        6195,
-        6195,
+        6159,
+        6159,
       ],
       "text": " ",
     },
-    "line": 486,
+    "line": 485,
     "message": "Expected space or tab after '/*' in comment.",
     "nodeType": "Block",
     "ruleId": "spaced-comment",
@@ -2745,15 +2692,15 @@ Array [
   Object {
     "column": 20,
     "endColumn": 21,
-    "endLine": 491,
+    "endLine": 490,
     "fix": Object {
       "range": Array [
-        6273,
-        6274,
+        6237,
+        6238,
       ],
       "text": "",
     },
-    "line": 491,
+    "line": 490,
     "message": "Unexpected space(s) before this colon.",
     "messageId": "unexpectedBefore",
     "nodeType": "SwitchCase",
@@ -2764,12 +2711,12 @@ Array [
     "column": 1,
     "fix": Object {
       "range": Array [
-        6318,
-        6319,
+        6282,
+        6283,
       ],
       "text": "",
     },
-    "line": 496,
+    "line": 495,
     "message": "Unexpected space between template tag and template literal.",
     "messageId": "unexpected",
     "nodeType": "TaggedTemplateExpression",

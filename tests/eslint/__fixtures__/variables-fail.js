@@ -15,6 +15,8 @@ let shadow = 2;
 
 function action() {
   let shadow = 5;
+
+  return shadow;
 }
 
 
