@@ -89,7 +89,6 @@ var arr = [1 , 2];
 var obj = { foo: 'bar' , baz: 'qur'};
 commaSpacing(a ,b);
 new Foo(a ,b);
-function commaSpacingFunc(a ,b) {}
 
 
 // comma-style
@@ -362,7 +361,7 @@ foo. bar. baz;
 foo. bar()
   .baz();
 foo
-  .bar(). baz();
+  .bar().baz();
 
 
 // nonblock-statement-body-position

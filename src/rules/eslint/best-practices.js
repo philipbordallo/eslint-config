@@ -90,11 +90,6 @@ export default {
   'no-restricted-properties': [
     ERROR,
     {
-      object: 'arguments',
-      property: 'callee',
-      message: 'arguments.callee is deprecated',
-    },
-    {
       object: 'global',
       property: 'isFinite',
       message: 'Please use Number.isFinite instead',
