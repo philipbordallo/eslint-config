@@ -25,7 +25,7 @@ export default {
   'no-confusing-arrow': [ERROR, { allowParens: true }],
   'no-const-assign': ERROR,
   'no-dupe-class-members': ERROR,
-  'no-duplicate-imports': OFF, // replaced by 'import/no-duplicates'
+  'no-duplicate-imports': OFF, // TODO: replace with 'import/no-duplicates'
   'no-new-symbol': ERROR,
   'no-restricted-imports': OFF,
   'no-this-before-super': ERROR,

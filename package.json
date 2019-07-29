@@ -14,21 +14,24 @@
     "publish:react": "npm publish packages/eslint-config-react",
     "version": "npm run version:packages && git add .",
     "version:packages": "babel-node version",
+    "test": "jest --config jest.config.js",
     "clean": "rimraf packages/**/index.js"
   },
   "dependencies": {
     "eslint-restricted-globals": "^0.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/node": "^7.2.2",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/preset-env": "^7.4.3",
-    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-dynamic-import-node": "^2.3.0",
     "babel-plugin-module-resolver": "^3.2.0",
-    "eslint": "^5.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
+    "eslint": "^6.1.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "jest": "^24.8.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^2.6.3"
   }

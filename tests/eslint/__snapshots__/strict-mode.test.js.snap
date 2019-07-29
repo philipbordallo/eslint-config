@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ESLint strict mode should fail 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 14,
+    "endLine": 2,
+    "line": 2,
+    "message": "Strict mode is not permitted.",
+    "messageId": "never",
+    "nodeType": "ExpressionStatement",
+    "ruleId": "strict",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 16,
+    "endLine": 5,
+    "line": 5,
+    "message": "Strict mode is not permitted.",
+    "messageId": "never",
+    "nodeType": "ExpressionStatement",
+    "ruleId": "strict",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`ESLint strict mode should pass 1`] = `Array []`;

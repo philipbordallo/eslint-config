@@ -12,9 +12,7 @@ export default {
   }],
   'consistent-return': ERROR,
   'curly': [ERROR, 'multi-line'],
-  'default-case': [ERROR, {
-    commentPattern: '^no default$',
-  }],
+  'default-case': ERROR,
   'dot-notation': [ERROR, {
     allowKeywords: true,
   }],
