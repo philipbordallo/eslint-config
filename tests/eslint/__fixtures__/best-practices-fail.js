@@ -24,15 +24,6 @@ class Car {
   }
 }
 
-// consistent-return
-function doSomething(condition) {
-  if (condition) {
-    return true;
-  } else {
-    return;
-  }
-}
-
 // curly
 if (foo)
   doSomething();

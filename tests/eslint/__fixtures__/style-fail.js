@@ -87,8 +87,6 @@ foo({
 // comma-spacing
 var arr = [1 , 2];
 var obj = { foo: 'bar' , baz: 'qur'};
-commaSpacing(a ,b);
-new Foo(a ,b);
 
 
 // comma-style
@@ -358,7 +356,7 @@ foo [bar];
 foo. bar;
 foo .bar;
 foo. bar. baz;
-foo. bar()
+foo.bar()
   .baz();
 foo
   .bar().baz();

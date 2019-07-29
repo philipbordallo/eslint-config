@@ -22,7 +22,9 @@ function action() {
 
 // no-shadow-restricted-names
 let Infinity = 5;
-function NaN() {}
+function NaN() {
+  return Infinity;
+}
 
 
 // no-undef
