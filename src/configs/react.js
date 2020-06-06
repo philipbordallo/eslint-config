@@ -1,5 +1,5 @@
-import { ERROR } from 'states';
-import createConfig from 'utilities/createConfig';
+import { ERROR } from 'src/states';
+import createConfig from 'src/utilities/createConfig';
 
 export default {
   name: 'react',
@@ -25,7 +25,7 @@ export default {
       },
       parserOptions: {
         sourceType: 'module',
-        ecmaVersion: 2018,
+        ecmaVersion: 2020,
         ecmaFeatures: {
           jsx: true,
         },

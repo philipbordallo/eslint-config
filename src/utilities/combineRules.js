@@ -1,9 +1,9 @@
-import disableRules from 'utilities/disableRules';
+import disableRules from 'src/utilities/disableRules';
 
 /**
  * Combine all the rules of the rules list given
  *
- * @param {Object} rulesList – A list of rules to use
+ * @param {object} rulesList – A list of rules to use
  * @returns {Promise} A promise to return a combined list of all rules
  */
 async function combineRules(rulesList) {

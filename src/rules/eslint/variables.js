@@ -1,4 +1,4 @@
-import { OFF, ERROR } from 'states';
+import { OFF, ERROR } from 'src/states';
 
 import restrictedGlobals from 'eslint-restricted-globals';
 

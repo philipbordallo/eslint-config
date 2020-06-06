@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { Linter } from 'eslint';
 
-import rules from 'rules/eslint/best-practices';
+import rules from 'src/rules/eslint/best-practices';
 
 
 const BASE_OPTIONS = {
@@ -18,7 +18,7 @@ const BASE_OPTIONS = {
 const linter = new Linter();
 
 describe('ESLint best practices', () => {
-  test('should pass', () => {
+  it('should pass', () => {
     const code = fs.readFileSync('./tests/eslint/__fixtures__/best-practices-pass.js', 'utf8');
 
     const output = linter.verify(code, {
@@ -30,7 +30,7 @@ describe('ESLint best practices', () => {
     expect(output).toMatchSnapshot();
   });
 
-  test('should fail', () => {
+  it('should fail', () => {
     const code = fs.readFileSync('./tests/eslint/__fixtures__/best-practices-fail.js', 'utf8');
 
     const output = linter.verify(code, {
@@ -40,4 +40,4 @@ describe('ESLint best practices', () => {
 
     expect(output).toMatchSnapshot();
   });
-})
+});

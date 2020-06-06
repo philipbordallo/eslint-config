@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { Linter } from 'eslint';
 
-import rules from 'rules/eslint/node-rules';
+import rules from 'src/rules/eslint/node-rules';
 
 
 const BASE_OPTIONS = {
@@ -17,7 +17,7 @@ const BASE_OPTIONS = {
 const linter = new Linter();
 
 describe('ESLint node rules', () => {
-  test('should pass', () => {
+  it('should pass', () => {
     const code = fs.readFileSync('./tests/eslint/__fixtures__/node-rules-pass.js', 'utf8');
 
     const output = linter.verify(code, {
@@ -29,7 +29,7 @@ describe('ESLint node rules', () => {
     expect(output).toMatchSnapshot();
   });
 
-  test('should fail', () => {
+  it('should fail', () => {
     const code = fs.readFileSync('./tests/eslint/__fixtures__/node-rules-fail.js', 'utf8');
 
     const output = linter.verify(code, {
@@ -39,4 +39,4 @@ describe('ESLint node rules', () => {
 
     expect(output).toMatchSnapshot();
   });
-})
+});

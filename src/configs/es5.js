@@ -1,4 +1,4 @@
-import createConfig from 'utilities/createConfig';
+import createConfig from 'src/utilities/createConfig';
 
 export default {
   name: 'es5',

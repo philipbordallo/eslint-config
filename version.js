@@ -26,10 +26,10 @@ async function updateVersion(file) {
     };
 
     writeFileAsync(packageInfoFile, JSON.stringify(newPackageInfo, null, '  '))
-      .then(
-        () => console.log(`Updated ${packageName} to ${info.version}`),
-        error => console.log(error),
-      );
+      .then(() => {
+        console.log(`Updated ${packageName} to ${info.version}`);
+      })
+      .catch(console.error);
   }
 }
 

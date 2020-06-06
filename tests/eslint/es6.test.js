@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { Linter } from 'eslint';
 
-import rules from 'rules/eslint/es6';
+import rules from 'src/rules/eslint/es6';
 
 
 const BASE_OPTIONS = {
@@ -19,7 +19,7 @@ const BASE_OPTIONS = {
 const linter = new Linter();
 
 describe('ESLint es6', () => {
-  test('should pass', () => {
+  it('should pass', () => {
     const code = fs.readFileSync('./tests/eslint/__fixtures__/es6-pass.js', 'utf8');
 
     const output = linter.verify(code, {
@@ -31,7 +31,7 @@ describe('ESLint es6', () => {
     expect(output).toMatchSnapshot();
   });
 
-  test('should fail', () => {
+  it('should fail', () => {
     const code = fs.readFileSync('./tests/eslint/__fixtures__/es6-fail.js', 'utf8');
 
     const output = linter.verify(code, {
@@ -41,4 +41,4 @@ describe('ESLint es6', () => {
 
     expect(output).toMatchSnapshot();
   });
-})
+});

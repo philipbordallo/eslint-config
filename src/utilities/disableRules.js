@@ -1,9 +1,9 @@
-import { OFF } from 'states';
+import { OFF } from 'src/states';
 
 /**
  * Automatically disable all rules given a rules list
  *
- * @param {Object} rules - Rules to disable
+ * @param {object} rules - Rules to disable
  * @returns {Promise} A promise to return a rules list with each rule disabled
  */
 async function disableRules(rules) {

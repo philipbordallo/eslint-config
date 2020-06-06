@@ -1,4 +1,4 @@
-import createConfig from 'utilities/createConfig';
+import createConfig from 'src/utilities/createConfig';
 
 export default {
   name: 'default',
@@ -22,7 +22,7 @@ export default {
       },
       parserOptions: {
         sourceType: 'module',
-        ecmaVersion: 2018,
+        ecmaVersion: 2020,
       },
     },
   }),

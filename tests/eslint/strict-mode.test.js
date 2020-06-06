@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { Linter } from 'eslint';
 
-import rules from 'rules/eslint/strict-mode';
+import rules from 'src/rules/eslint/strict-mode';
 
 
 const BASE_OPTIONS = {
@@ -18,7 +18,7 @@ const BASE_OPTIONS = {
 const linter = new Linter();
 
 describe('ESLint strict mode', () => {
-  test('should pass', () => {
+  it('should pass', () => {
     const code = fs.readFileSync('./tests/eslint/__fixtures__/strict-mode-pass.js', 'utf8');
 
     const output = linter.verify(code, {
@@ -30,7 +30,7 @@ describe('ESLint strict mode', () => {
     expect(output).toMatchSnapshot();
   });
 
-  test('should fail', () => {
+  it('should fail', () => {
     const code = fs.readFileSync('./tests/eslint/__fixtures__/strict-mode-fail.js', 'utf8');
 
     const output = linter.verify(code, {
@@ -40,4 +40,4 @@ describe('ESLint strict mode', () => {
 
     expect(output).toMatchSnapshot();
   });
-})
+});

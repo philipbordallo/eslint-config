@@ -1,4 +1,4 @@
-import combineRules from 'utilities/combineRules';
+import combineRules from 'src/utilities/combineRules';
 
 const DEFAULT_OPTIONS = {
   rules: {},
@@ -8,7 +8,9 @@ const DEFAULT_OPTIONS = {
 /**
  * Create an ESLint config given rules and a base config
  *
- * @param {Object} optionsArgs
+ * @param {object} optionsArgs
+ * @param {Object<string, boolean>} optionsArgs.rules
+ * @param {object} optionsArgs.base
  * @returns {Promise} A promise to return a full config
  */
 async function createConfig(optionsArgs) {

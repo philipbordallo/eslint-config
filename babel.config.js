@@ -4,22 +4,19 @@ module.exports = (api) => {
   const presets = [
     ['@babel/env', {
       targets: {
-        node: 'current'
-      }
-    }]
+        node: 'current',
+      },
+    }],
   ];
 
   const plugins = [
-    '@babel/syntax-dynamic-import',
-    'dynamic-import-node',
     ['module-resolver', {
-      root: ['./src'],
-      alias: {}
-    }]
+      root: ['./'],
+    }],
   ];
 
   return {
     presets,
-    plugins
+    plugins,
   };
-}
+};
