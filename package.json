@@ -12,6 +12,7 @@
     "publish:default": "npm publish packages/eslint-config",
     "publish:es5": "npm publish packages/eslint-config-es5",
     "publish:react": "npm publish packages/eslint-config-react",
+    "publish:typescript": "npm publish packages/eslint-config-typescript",
     "version": "npm run version:packages && git add .",
     "version:packages": "babel-node version.js",
     "test": "jest --config jest.config.js",
