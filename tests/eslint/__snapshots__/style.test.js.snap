@@ -1108,6 +1108,8 @@ Array [
   },
   Object {
     "column": 25,
+    "endColumn": 32,
+    "endLine": 189,
     "fix": Object {
       "range": Array [
         2055,
@@ -1141,7 +1143,9 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 14,
+    "column": 6,
+    "endColumn": 14,
+    "endLine": 192,
     "fix": Object {
       "range": Array [
         2118,
@@ -1177,6 +1181,8 @@ Array [
   },
   Object {
     "column": 18,
+    "endColumn": 22,
+    "endLine": 197,
     "fix": Object {
       "range": Array [
         2174,
@@ -1212,6 +1218,8 @@ Array [
   },
   Object {
     "column": 45,
+    "endColumn": 49,
+    "endLine": 197,
     "fix": Object {
       "range": Array [
         2201,
@@ -1285,6 +1293,8 @@ Array [
   },
   Object {
     "column": 1,
+    "endColumn": 449,
+    "endLine": 215,
     "line": 215,
     "message": "This line has a length of 448. Maximum allowed is 100.",
     "messageId": "max",
@@ -1944,7 +1954,9 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 33,
+    "column": 23,
+    "endColumn": 45,
+    "endLine": 349,
     "fix": Object {
       "range": Array [
         4557,
@@ -1960,7 +1972,9 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 23,
+    "column": 19,
+    "endColumn": 35,
+    "endLine": 350,
     "fix": Object {
       "range": Array [
         4599,
@@ -1976,7 +1990,9 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 25,
+    "column": 21,
+    "endColumn": 30,
+    "endLine": 351,
     "fix": Object {
       "range": Array [
         4637,
@@ -2119,6 +2135,8 @@ Array [
   },
   Object {
     "column": 20,
+    "endColumn": 21,
+    "endLine": 373,
     "fix": Object {
       "range": Array [
         4886,
@@ -2136,6 +2154,8 @@ Array [
   },
   Object {
     "column": 56,
+    "endColumn": 57,
+    "endLine": 373,
     "fix": Object {
       "range": Array [
         4921,
@@ -2153,6 +2173,8 @@ Array [
   },
   Object {
     "column": 14,
+    "endColumn": 15,
+    "endLine": 376,
     "fix": Object {
       "range": Array [
         4963,
@@ -2188,6 +2210,8 @@ Array [
   },
   Object {
     "column": 48,
+    "endColumn": 49,
+    "endLine": 376,
     "fix": Object {
       "range": Array [
         4996,

@@ -4,6 +4,8 @@ exports[`ESLint es6 should fail 1`] = `
 Array [
   Object {
     "column": 19,
+    "endColumn": 2,
+    "endLine": 4,
     "fix": Object {
       "range": Array [
         38,
@@ -316,11 +318,9 @@ Array [
     "fix": Object {
       "range": Array [
         956,
-        993,
+        971,
       ],
-      "text": "(item) => {
-  return item + 1;
-}",
+      "text": "(item) => ",
     },
     "line": 80,
     "message": "Unexpected function expression.",
