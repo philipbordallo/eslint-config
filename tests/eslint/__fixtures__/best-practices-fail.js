@@ -41,6 +41,11 @@ switch (a) {
     break;
 }
 
+// default-param-last
+function defaultParamOne(a = 0, b) {}
+
+function defaultParamTwo(a, b = 0, c) {}
+
 // dot-notation
 let y = foo['class'];
 

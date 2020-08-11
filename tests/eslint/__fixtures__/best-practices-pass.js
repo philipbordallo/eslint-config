@@ -69,6 +69,9 @@ switch (a) {
     break;
 }
 
+// default-param-last
+function defaultParamOne(a, b = 0) {}
+
 
 switch (a) {
   case 1:

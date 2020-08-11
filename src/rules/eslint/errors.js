@@ -30,6 +30,7 @@ export default {
   'no-inner-declarations': ERROR,
   'no-invalid-regexp': ERROR,
   'no-irregular-whitespace': ERROR,
+  'no-loss-of-precision': ERROR,
   'no-misleading-character-class': ERROR,
   'no-obj-calls': ERROR,
   'no-prototype-builtins': ERROR,

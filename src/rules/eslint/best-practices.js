@@ -13,6 +13,7 @@ export default {
   'consistent-return': ERROR,
   'curly': [ERROR, 'multi-line'],
   'default-case': ERROR,
+  'default-param-last': ERROR,
   'dot-notation': [ERROR, {
     allowKeywords: true,
   }],
@@ -151,6 +152,7 @@ export default {
   'no-unused-labels': ERROR,
   'no-useless-call': OFF,
   'no-useless-concat': ERROR,
+  'no-useless-catch': ERROR,
   'no-useless-escape': ERROR,
   'no-useless-return': ERROR,
   'no-void': ERROR,
