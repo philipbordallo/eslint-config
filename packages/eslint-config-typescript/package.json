@@ -18,6 +18,8 @@
     "url": "https://github.com/philipbordallo/eslint-config/issues"
   },
   "peerDependencies": {
-    "eslint": ">=5"
+    "eslint": ">=7",
+    "@typescript-eslint/parser": ">=3",
+    "@typescript-eslint/eslint-plugin": ">=3"
   }
 }
