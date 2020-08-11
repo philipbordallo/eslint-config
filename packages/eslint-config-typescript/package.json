@@ -1,0 +1,23 @@
+{
+  "name": "@philipbordallo/eslint-config-typescript",
+  "version": "2.5.0",
+  "description": "Personal ESLint config for TypeScript",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Philip Bordallo",
+  "homepage": "https://github.com/philipbordallo/eslint-config/tree/master/packages/eslint-config-typescript#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipbordallo/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/philipbordallo/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">=5"
+  }
+}
