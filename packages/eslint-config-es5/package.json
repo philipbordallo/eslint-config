@@ -18,6 +18,6 @@
     "url": "https://github.com/philipbordallo/eslint-config/issues"
   },
   "peerDependencies": {
-    "eslint": ">=5"
+    "eslint": ">=7"
   }
 }

@@ -1,6 +1,28 @@
 import { OFF, WARN, ERROR } from 'src/states';
 
 export default {
+  // React Class Methods, see https://reactjs.org/docs/react-component.html
+  'class-methods-use-this': [ERROR, {
+    exceptMethods: [
+      'render',
+      'getInitialState',
+      'getDefaultProps',
+      'getChildContext',
+      'componentWillMount',
+      'UNSAFE_componentWillMount',
+      'componentDidMount',
+      'componentWillReceiveProps',
+      'UNSAFE_componentWillReceiveProps',
+      'shouldComponentUpdate',
+      'componentWillUpdate',
+      'UNSAFE_componentWillUpdate',
+      'componentDidUpdate',
+      'componentWillUnmount',
+      'componentDidCatch',
+      'getSnapshotBeforeUpdate',
+    ],
+  }],
+
   'react/boolean-prop-naming': ERROR,
   'react/button-has-type': [ERROR, {
     button: true,

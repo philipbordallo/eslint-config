@@ -1,4 +1,3 @@
-import { ERROR } from 'src/states';
 import createConfig from 'src/utilities/createConfig';
 
 export default {
@@ -39,28 +38,6 @@ export default {
           pragma: 'React',
           version: '16.0',
         },
-      },
-      rules: {
-        'class-methods-use-this': [ERROR, {
-          exceptMethods: [
-            'render',
-            'getInitialState',
-            'getDefaultProps',
-            'getChildContext',
-            'componentWillMount',
-            'UNSAFE_componentWillMount',
-            'componentDidMount',
-            'componentWillReceiveProps',
-            'UNSAFE_componentWillReceiveProps',
-            'shouldComponentUpdate',
-            'componentWillUpdate',
-            'UNSAFE_componentWillUpdate',
-            'componentDidUpdate',
-            'componentWillUnmount',
-            'componentDidCatch',
-            'getSnapshotBeforeUpdate',
-          ],
-        }],
       },
     },
   }),

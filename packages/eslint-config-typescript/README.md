@@ -1,9 +1,9 @@
-# eslint-config-react
+# eslint-config-typescript
 > A config for TypeScript projects
 
 [![NPM Version][npm-img]][npm-url]
 
-See [`src/configs/react.js`](../../src/configs/typescript.js) for how it's fully setup or check the [generated file](https://unpkg.com/@philipbordallo/eslint-config-typescript).
+See [`src/configs/typescript.js`](../../src/configs/typescript.js) for how it's fully setup or check the [generated file](https://unpkg.com/@philipbordallo/eslint-config-typescript).
 
 
 ## Install
@@ -43,5 +43,5 @@ module.exports = {
 ```
 
 
-[npm-img]: https://img.shields.io/npm/v/@philipbordallo/eslint-config-react.svg
-[npm-url]: https://www.npmjs.com/package/@philipbordallo/eslint-config-react
+[npm-img]: https://img.shields.io/npm/v/@philipbordallo/eslint-config-typescript.svg
+[npm-url]: https://www.npmjs.com/package/@philipbordallo/eslint-config-typescript

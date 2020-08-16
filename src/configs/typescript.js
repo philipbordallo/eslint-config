@@ -9,7 +9,7 @@ export default {
       'eslint/errors': true,
       'eslint/es6': true,
       'eslint/node-rules': true,
-      'eslint/react': true,
+      'eslint/react': false,
       'eslint/strict-mode': true,
       'eslint/style': true,
       'eslint/variables': true,
