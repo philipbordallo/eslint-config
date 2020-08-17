@@ -1,11 +1,7 @@
 import fs from 'fs';
-import { promisify } from 'util';
-
 import { CONFIGS_PATH, PACKAGES_PATH } from './paths';
 
 import info from './package.json';
-
-const writeFileAsync = promisify(fs.writeFile);
 
 /**
  * Update all packages to latest version
@@ -25,7 +21,7 @@ async function updateVersion(file) {
       version: info.version,
     };
 
-    writeFileAsync(packageInfoFile, JSON.stringify(newPackageInfo, null, '  '))
+    fs.promises.writeFile(packageInfoFile, JSON.stringify(newPackageInfo, null, '  '))
       .then(() => {
         console.log(`Updated ${packageName} to ${info.version}`);
       })

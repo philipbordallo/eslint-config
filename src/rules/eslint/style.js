@@ -78,7 +78,9 @@ export default {
   'line-comment-position': OFF,
   'linebreak-style': [ERROR, 'unix'],
   'lines-around-comment': OFF,
-  'lines-between-class-members': [ERROR, 'always'],
+  'lines-between-class-members': [ERROR, 'always', {
+    exceptAfterSingleLine: true,
+  }],
   'max-depth': OFF,
   'max-len': [ERROR, 100, 2, {
     ignoreUrls: true,

@@ -54,8 +54,10 @@ export default {
   '@typescript-eslint/no-unnecessary-type-arguments': ERROR,
   '@typescript-eslint/no-unnecessary-type-assertion': ERROR,
   '@typescript-eslint/no-unsafe-assignment': ERROR,
-  '@typescript-eslint/no-unsafe-call': ERROR,
-  '@typescript-eslint/no-unsafe-member-access': ERROR,
+  // See https://github.com/typescript-eslint/typescript-eslint/issues/2395
+  '@typescript-eslint/no-unsafe-call': OFF,
+  // See https://github.com/typescript-eslint/typescript-eslint/issues/2395
+  '@typescript-eslint/no-unsafe-member-access': OFF,
   '@typescript-eslint/no-unsafe-return': ERROR,
   // See @typescript-eslint/no-unused-vars
   '@typescript-eslint/no-unused-vars-experimental': OFF,
@@ -70,7 +72,7 @@ export default {
   '@typescript-eslint/prefer-nullish-coalescing': ERROR,
   '@typescript-eslint/prefer-optional-chain': ERROR,
   '@typescript-eslint/prefer-readonly': OFF,
-  '@typescript-eslint/prefer-readonly-parameter-types': ERROR,
+  '@typescript-eslint/prefer-readonly-parameter-types': OFF,
   '@typescript-eslint/prefer-reduce-type-parameter': ERROR,
   '@typescript-eslint/prefer-regexp-exec': ERROR,
   '@typescript-eslint/prefer-string-starts-ends-with': ERROR,
@@ -79,11 +81,11 @@ export default {
   '@typescript-eslint/require-array-sort-compare': ERROR,
   '@typescript-eslint/restrict-plus-operands': ERROR,
   '@typescript-eslint/restrict-template-expressions': OFF,
-  '@typescript-eslint/strict-boolean-expressions': ERROR,
+  '@typescript-eslint/strict-boolean-expressions': OFF,
   '@typescript-eslint/switch-exhaustiveness-check': ERROR,
   '@typescript-eslint/triple-slash-reference': ERROR,
   '@typescript-eslint/type-annotation-spacing': ERROR,
-  '@typescript-eslint/typedef': ERROR,
+  '@typescript-eslint/typedef': OFF,
   '@typescript-eslint/unbound-method': ERROR,
   '@typescript-eslint/unified-signatures': ERROR,
 };
