@@ -54,10 +54,8 @@ export default {
   '@typescript-eslint/no-unnecessary-type-arguments': ERROR,
   '@typescript-eslint/no-unnecessary-type-assertion': ERROR,
   '@typescript-eslint/no-unsafe-assignment': ERROR,
-  // See https://github.com/typescript-eslint/typescript-eslint/issues/2395
-  '@typescript-eslint/no-unsafe-call': OFF,
-  // See https://github.com/typescript-eslint/typescript-eslint/issues/2395
-  '@typescript-eslint/no-unsafe-member-access': OFF,
+  '@typescript-eslint/no-unsafe-call': ERROR,
+  '@typescript-eslint/no-unsafe-member-access': ERROR,
   '@typescript-eslint/no-unsafe-return': ERROR,
   // See @typescript-eslint/no-unused-vars
   '@typescript-eslint/no-unused-vars-experimental': OFF,
