@@ -1,8 +1,8 @@
 import fs from 'fs';
-import { CONFIGS_PATH, PACKAGES_PATH } from 'file.config';
+import { PACKAGES_PATH } from 'file.config';
 
-import info from 'package.json';
-import { readConfigs } from './toolbox';
+import pkg from 'package.json';
+import { getPackageName, readConfigs } from './toolbox';
 
 /**
  * Update all packages to latest version
@@ -10,21 +10,20 @@ import { readConfigs } from './toolbox';
  * @param {string} file
  */
 async function updateVersion(file) {
-  const { default: config } = await import(`${CONFIGS_PATH}/${file}`);
-  const { packageName } = config;
+  const { longName } = getPackageName(file);
 
-  const packageInfoFile = `${PACKAGES_PATH}/${packageName}/package.json`;
-  const { default: packageInfo } = await import(packageInfoFile);
+  const packageFile = `${PACKAGES_PATH}/${longName}/package.json`;
+  const { default: packageMeta } = await import(packageFile);
 
-  if (info.version !== packageInfo.version) {
-    const newPackageInfo = {
-      ...packageInfo,
-      version: info.version,
+  if (pkg.version !== packageMeta.version) {
+    const newPackageMeta = {
+      ...packageMeta,
+      version: pkg.version,
     };
 
-    fs.promises.writeFile(packageInfoFile, JSON.stringify(newPackageInfo, null, '  '))
+    fs.promises.writeFile(packageFile, JSON.stringify(newPackageMeta, null, '  '))
       .then(() => {
-        console.log(`Updated ${packageName} to ${info.version}`);
+        console.log(`Updated ${longName} to ${pkg.version}`);
       })
       .catch(console.error);
   }
