@@ -1,0 +1,20 @@
+{
+  "name": "@philipbordallo/eslint-config-html",
+  "version": "3.2.0",
+  "description": "Personal ESLint config for HTML",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Philip Bordallo",
+  "homepage": "https://github.com/philipbordallo/eslint-config/tree/main/packages/eslint-config-react#readme",
+  "repository": "github:philipbordallo/eslint-config",
+  "bugs": "https://github.com/philipbordallo/eslint-config/issues",
+  "peerDependencies": {
+    "@html-eslint/eslint-plugin": ">=0.8",
+    "@html-eslint/parser": ">=0.8",
+    "eslint": ">=7"
+  }
+}

@@ -10,7 +10,7 @@ export default {
   'no-console': WARN,
   'no-constant-condition': WARN,
   'no-control-regex': ERROR,
-  'no-debugger': WARN,
+  'no-debugger': ERROR,
   'no-dupe-args': ERROR,
   'no-dupe-keys': ERROR,
   'no-duplicate-case': ERROR,

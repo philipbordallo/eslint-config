@@ -1,0 +1,20 @@
+{
+  "name": "@philipbordallo/eslint-config-jest",
+  "version": "3.2.0",
+  "description": "Personal ESLint config for Jest",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Philip Bordallo",
+  "homepage": "https://github.com/philipbordallo/eslint-config/tree/main/packages/eslint-config-react#readme",
+  "repository": "github:philipbordallo/eslint-config",
+  "bugs": "https://github.com/philipbordallo/eslint-config/issues",
+  "peerDependencies": {
+    "eslint-plugin-jest": ">=24",
+    "eslint-plugin-jest-dom": ">=3",
+    "eslint": ">=7"
+  }
+}
