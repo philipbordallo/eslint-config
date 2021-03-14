@@ -11,7 +11,7 @@
     "build": "babel-node ./scripts/build.js",
     "lint": "eslint src/",
     "prerelease": "npm run build",
-    "release": "workspaces-run -- publish",
+    "release": "sh ./scripts/release.sh",
     "version": "npm run version:packages && git add .",
     "version:packages": "babel-node ./scripts/version.js",
     "clean": "rimraf ./packages/**/index.js"
@@ -33,7 +33,6 @@
     "@babel/preset-env": "^7.11.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "mustache": "^4.1.0",
-    "rimraf": "^3.0.2",
-    "workspaces-run": "^1.0.1"
+    "rimraf": "^3.0.2"
   }
 }
