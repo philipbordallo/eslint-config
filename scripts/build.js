@@ -3,17 +3,25 @@ import fs from 'fs';
 
 import Mustache from 'mustache';
 
-import { CONFIGS_PATH, PACKAGES_PATH, SRC_PATH } from 'file.config';
+import {
+  CONFIGS_PATH, PACKAGES_PATH, ROOT_PATH, SRC_PATH,
+} from 'file.config';
 import { getPackageName, readConfigs } from './toolbox';
 
 
 // Disable HTML escaping for Mustache
 Mustache.escape = text => text;
 
-const TEMPLATE = '// THIS IS A GENERATED FILE\nmodule.exports={{ data }};';
+const CONFIG_TEMPLATE = '// THIS IS A GENERATED FILE\nmodule.exports={{ data }};';
+
+const README_TEMPLATE = fs.readFileSync(
+  path.resolve(SRC_PATH, 'README.template.md'), { encoding: 'utf-8' },
+);
+
+const TOC_TEMPLATE = '# eslint-config\n> Personal ESLint configs\n';
 
 /**
- * Builds config file (index.js) to packages folder
+ * Create config file (index.js) in packages folder
  * @param {string} file
  */
 async function buildConfig(file) {
@@ -23,20 +31,17 @@ async function buildConfig(file) {
   const { longName } = getPackageName(file);
 
   const stringifiedData = JSON.stringify(config);
-  const generatedData = TEMPLATE.replace(/{{ data }}/, stringifiedData);
+  const generatedData = CONFIG_TEMPLATE.replace(/{{ data }}/, stringifiedData);
   const exportFile = path.resolve(PACKAGES_PATH, longName, 'index.js');
 
   fs.promises.writeFile(exportFile, generatedData);
 }
 
 /**
- * Builds README.md file to packages folder
+ * Create README.md file in packages folder.
  * @param {string} file
  */
 async function buildReadMe(file) {
-  const template = await fs.promises.readFile(
-    path.resolve(SRC_PATH, 'README.template.md'), { encoding: 'utf-8' },
-  );
   const { longName, shortName } = getPackageName(file);
 
   const packageFile = path.resolve(PACKAGES_PATH, longName, 'package.json');
@@ -50,13 +55,26 @@ async function buildReadMe(file) {
     configFile: `src/configs/${shortName}.js`,
     configName: shortName !== 'default' ? String(pkg.name).replace(/eslint-config-?/, '') : null,
   };
-  const output = Mustache.render(template, view);
+  const output = Mustache.render(README_TEMPLATE, view);
   const readMeFile = path.resolve(PACKAGES_PATH, longName, 'README.md');
 
   fs.promises.writeFile(readMeFile, output);
 }
 
-readConfigs((file) => {
+/**
+ * Create a table of contents in the main README.md.
+ * @param {string} acc
+ * @param {string} file
+ */
+function buildTOC(acc, file) {
+  const { longName } = getPackageName(file);
+
+  return acc.concat(`\n- [@philipbordallo/${longName}](./packages/${longName})`);
+}
+
+const configs = readConfigs();
+
+configs.forEach((file) => {
   const { longName, shortName } = getPackageName(file);
 
   Promise.all([
@@ -66,3 +84,6 @@ readConfigs((file) => {
     console.log(`Finished building ${shortName} config to ./packages/${longName}`);
   });
 });
+
+const tableOfContents = configs.reduce(buildTOC, TOC_TEMPLATE);
+fs.writeFileSync(path.resolve(ROOT_PATH, 'README.md'), tableOfContents);

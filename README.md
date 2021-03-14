@@ -1,4 +1,8 @@
-# eslint-configs
+# eslint-config
+> Personal ESLint configs
 
-- [Default](./packages/eslint-config#readme) – A basic config for most projects
-- [TypeScript](./packages/eslint-config-typescript#readme) – A config for TypeScript projects
+- [@philipbordallo/eslint-config](./packages/eslint-config)
+- [@philipbordallo/eslint-config-html](./packages/eslint-config-html)
+- [@philipbordallo/eslint-config-jest](./packages/eslint-config-jest)
+- [@philipbordallo/eslint-config-react](./packages/eslint-config-react)
+- [@philipbordallo/eslint-config-typescript](./packages/eslint-config-typescript)

@@ -2,12 +2,11 @@ import { CONFIGS_PATH } from 'file.config';
 import fs from 'fs';
 
 /**
- * @param {(file: string) => void} callback
+ * Read config files and filter out any extra filers
  */
-export function readConfigs(callback) {
-  fs.readdirSync(CONFIGS_PATH)
-    .filter(file => file !== '.DS_Store')
-    .forEach(callback);
+export function readConfigs() {
+  return fs.readdirSync(CONFIGS_PATH)
+    .filter(file => file !== '.DS_Store');
 }
 
 /**

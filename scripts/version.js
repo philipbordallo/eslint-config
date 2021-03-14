@@ -30,4 +30,4 @@ async function updateVersion(file) {
   }
 }
 
-readConfigs(updateVersion);
+readConfigs().forEach(updateVersion);
