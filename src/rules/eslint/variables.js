@@ -1,12 +1,12 @@
 import { OFF, ERROR } from 'src/constants';
 
-import restrictedGlobals from 'eslint-restricted-globals';
+import confusingBrowserGlobals from 'confusing-browser-globals';
 
 export default {
   'init-declarations': OFF,
   'no-delete-var': ERROR,
   'no-label-var': ERROR,
-  'no-restricted-globals': [ERROR, 'isFinite', 'isNaN'].concat(restrictedGlobals),
+  'no-restricted-globals': [ERROR, 'isFinite', 'isNaN'].concat(confusingBrowserGlobals),
   'no-shadow': ERROR,
   'no-shadow-restricted-names': ERROR,
   'no-undef': ERROR,
