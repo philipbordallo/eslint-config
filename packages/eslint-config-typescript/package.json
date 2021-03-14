@@ -9,17 +9,13 @@
     "eslint-config"
   ],
   "author": "Philip Bordallo",
-  "homepage": "https://github.com/philipbordallo/eslint-config/tree/master/packages/eslint-config-typescript#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/philipbordallo/eslint-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/philipbordallo/eslint-config/issues"
-  },
+  "homepage": "https://github.com/philipbordallo/eslint-config/tree/main/packages/eslint-config-typescript#readme",
+  "repository": "github:philipbordallo/eslint-config",
+  "bugs": "https://github.com/philipbordallo/eslint-config/issues",
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=4",
+    "@typescript-eslint/parser": ">=4",
     "eslint": ">=7",
-    "@typescript-eslint/parser": ">=3",
-    "@typescript-eslint/eslint-plugin": ">=3"
+    "typescript": ">=4"
   }
 }

@@ -1,5 +1,5 @@
-# eslint-config
-> A basic config for most projects
+# @philipbordallo/eslint-config
+> Personal ESLint config
 
 [![NPM Version][npm-img]][npm-url]
 
@@ -10,22 +10,24 @@ See [`src/configs/default.js`](../../src/configs/default.js) for how it's fully 
 
 ```sh
 # npm
-npm add @philipbordallo/eslint-config --save-dev
+npm add --save-dev @philipbordallo/eslint-config
 
 # yarn
-yarn add @philipbordallo/eslint-config --dev
+yarn add --dev @philipbordallo/eslint-config
 ```
 
-### Add dependencies
+### Peer Dependencies
 
 - [`eslint`](https://www.npmjs.com/package/eslint)
 
+If you are using npm v7 or greater these should automatically be installed.
+
 ```sh
 # npm
-npm add eslint --save-dev
+npm add --save-dev eslint
 
 # yarn
-yarn add eslint --dev
+yarn add --dev eslint
 ```
 
 

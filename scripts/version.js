@@ -1,7 +1,8 @@
 import fs from 'fs';
-import { CONFIGS_PATH, PACKAGES_PATH } from './paths';
+import { CONFIGS_PATH, PACKAGES_PATH } from 'file.config';
 
-import info from './package.json';
+import info from 'package.json';
+import { readConfigs } from './toolbox';
 
 /**
  * Update all packages to latest version
@@ -29,6 +30,4 @@ async function updateVersion(file) {
   }
 }
 
-fs.readdirSync(CONFIGS_PATH)
-  .filter(file => file !== '.DS_Store')
-  .forEach(updateVersion);
+readConfigs(updateVersion);

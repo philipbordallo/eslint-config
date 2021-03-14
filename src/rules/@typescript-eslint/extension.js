@@ -1,4 +1,4 @@
-import { OFF } from 'src/states';
+import { OFF } from 'src/constants';
 import bestPractices from 'src/rules/eslint/best-practices';
 import es6 from 'src/rules/eslint/es6';
 import errors from 'src/rules/eslint/errors';
@@ -23,7 +23,7 @@ export default {
 
   // Disabled for now see https://github.com/typescript-eslint/typescript-eslint/issues/1824
   // 'indent': OFF,
-  // '@typescript-eslint/indent': style['indent'],
+  // '@typescript-eslint/indent': style.indent.slice(0, 2),
 
   'init-declarations': OFF,
   '@typescript-eslint/init-declarations': variables['init-declarations'],

@@ -1,4 +1,4 @@
-import { OFF, ERROR } from 'src/states';
+import { OFF, ERROR } from 'src/constants';
 
 const ELEMENT_INTERACTION_HANDLERS = [
   'onClick',
@@ -12,10 +12,10 @@ const ELEMENT_INTERACTION_HANDLERS = [
 export default {
   'jsx-a11y/accessible-emoji': ERROR,
   'jsx-a11y/alt-text': [ERROR, {
-    elements: ['img', 'object', 'area', 'input[type="image"]'],
-    img: [],
-    object: [],
-    area: [],
+    'elements': ['img', 'object', 'area', 'input[type="image"]'],
+    'img': [],
+    'object': [],
+    'area': [],
     'input[type="image"]': [],
   }],
   'jsx-a11y/aria-activedescendant-has-tabindex': ERROR,

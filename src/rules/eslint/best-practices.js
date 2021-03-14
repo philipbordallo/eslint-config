@@ -1,9 +1,10 @@
-import { OFF, WARN, ERROR } from 'src/states';
+import { OFF, WARN, ERROR } from 'src/constants';
 
 export default {
-  'accessor-pairs': OFF,
+  'accessor-pairs': ERROR,
   'array-callback-return': [ERROR, {
     allowImplicit: true,
+    checkForEach: true,
   }],
   'block-scoped-var': ERROR,
   'complexity': OFF,
@@ -22,11 +23,11 @@ export default {
     null: 'ignore',
   }],
   'guard-for-in': ERROR,
-  'max-classes-per-file': [ERROR, 1],
+  'max-classes-per-file': OFF,
   'no-alert': WARN,
   'no-caller': ERROR,
   'no-case-declarations': ERROR,
-  'no-div-regex': OFF,
+  'no-div-regex': ERROR,
   'no-else-return': [ERROR, { allowElseIf: false }],
   'no-empty-function': [ERROR, {
     allow: [
@@ -77,49 +78,27 @@ export default {
     ignorePropertyModificationsFor: [
       'acc', // for reduce accumulators
       'accumulator', // for reduce accumulators
-      'e', // for e.returnvalue
       'ctx', // for Koa routing
       'req', // for Express requests
       'request', // for Express requests
       'res', // for Express responses
       'response', // for Express responses
-      '$scope', // for Angular 1 scopes
     ],
   }],
   'no-proto': ERROR,
   'no-redeclare': [ERROR, { builtinGlobals: true }],
   'no-restricted-properties': [
     ERROR,
-    {
-      object: 'global',
+    ...['global', 'self', 'window'].map(object => ({
+      object,
       property: 'isFinite',
       message: 'Please use Number.isFinite instead',
-    },
-    {
-      object: 'self',
-      property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
-    },
-    {
-      object: 'window',
-      property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
-    },
-    {
-      object: 'global',
+    })),
+    ...['global', 'self', 'window'].map(object => ({
+      object,
       property: 'isNaN',
       message: 'Please use Number.isNaN instead',
-    },
-    {
-      object: 'self',
-      property: 'isNaN',
-      message: 'Please use Number.isNaN instead',
-    },
-    {
-      object: 'window',
-      property: 'isNaN',
-      message: 'Please use Number.isNaN instead',
-    },
+    })),
     {
       property: '__defineGetter__',
       message: 'Please use Object.defineProperty instead.',
@@ -145,8 +124,8 @@ export default {
   'no-throw-literal': ERROR,
   'no-unmodified-loop-condition': ERROR,
   'no-unused-expressions': [ERROR, {
-    allowShortCircuit: false,
-    allowTernary: false,
+    allowShortCircuit: true,
+    allowTernary: true,
     allowTaggedTemplates: false,
   }],
   'no-unused-labels': ERROR,

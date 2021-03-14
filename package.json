@@ -5,18 +5,24 @@
   "main": "build.js",
   "license": "MIT",
   "author": "Philip Bordallo",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "build": "babel-node build.js",
+    "build": "babel-node ./scripts/build.js",
+    "lint": "eslint src/",
     "prerelease": "npm run build",
     "release": "npm-run-all publish:*",
     "publish:default": "npm publish packages/eslint-config",
     "publish:typescript": "npm publish packages/eslint-config-typescript",
     "version": "npm run version:packages && git add .",
-    "version:packages": "babel-node version.js",
-    "clean": "rimraf packages/**/index.js"
+    "version:packages": "babel-node ./scripts/version.js",
+    "clean": "rimraf ./packages/**/index.js"
   },
   "eslintConfig": {
-    "extends": "./packages/eslint-config/index.js",
+    "extends": [
+      "./packages/eslint-config/index.js"
+    ],
     "rules": {
       "no-console": "off"
     }
@@ -28,11 +34,8 @@
     "@babel/core": "^7.11.1",
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.0",
-    "@typescript-eslint/eslint-plugin": "^3.9.0",
     "babel-plugin-module-resolver": "^4.0.0",
-    "eslint": "^7.6.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.5",
+    "mustache": "^4.1.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2"
   }

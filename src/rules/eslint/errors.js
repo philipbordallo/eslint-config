@@ -1,4 +1,4 @@
-import { OFF, WARN, ERROR } from 'src/states';
+import { WARN, ERROR } from 'src/constants';
 
 export default {
   'for-direction': ERROR,
@@ -10,7 +10,7 @@ export default {
   'no-console': WARN,
   'no-constant-condition': WARN,
   'no-control-regex': ERROR,
-  'no-debugger': ERROR,
+  'no-debugger': WARN,
   'no-dupe-args': ERROR,
   'no-dupe-keys': ERROR,
   'no-duplicate-case': ERROR,
@@ -43,6 +43,5 @@ export default {
   'no-unsafe-negation': ERROR,
   'require-atomic-updates': ERROR,
   'use-isnan': ERROR,
-  'valid-jsdoc': OFF, // TODO: Enable
   'valid-typeof': ERROR,
 };

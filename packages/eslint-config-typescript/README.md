@@ -1,5 +1,5 @@
-# eslint-config-typescript
-> A config for TypeScript projects
+# @philipbordallo/eslint-config-typescript
+> Personal ESLint config for TypeScript
 
 [![NPM Version][npm-img]][npm-url]
 
@@ -10,24 +10,27 @@ See [`src/configs/typescript.js`](../../src/configs/typescript.js) for how it's 
 
 ```sh
 # npm
-npm add @philipbordallo/eslint-config-typescript --save-dev
+npm add --save-dev @philipbordallo/eslint-config-typescript
 
 # yarn
-yarn add @philipbordallo/eslint-config-typescript --dev
+yarn add --dev @philipbordallo/eslint-config-typescript
 ```
 
-### Add dependencies
+### Peer Dependencies
 
-- [`eslint`](https://www.npmjs.com/package/eslint)
-- [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser)
 - [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
+- [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser)
+- [`eslint`](https://www.npmjs.com/package/eslint)
+- [`typescript`](https://www.npmjs.com/package/typescript)
+
+If you are using npm v7 or greater these should automatically be installed.
 
 ```sh
 # npm
-npm add eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
+npm add --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint typescript
 
 # yarn
-yarn add eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin --dev
+yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint typescript
 ```
 
 
@@ -36,9 +39,9 @@ yarn add eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-p
 ```js
 module.exports = {
   extends: [
+    '@philipbordallo',
     '@philipbordallo/typescript',
   ],
-  parser: '@typescript-eslint/parser',
 };
 ```
 

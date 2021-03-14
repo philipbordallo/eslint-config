@@ -10,13 +10,8 @@
   ],
   "author": "Philip Bordallo",
   "homepage": "https://github.com/philipbordallo/eslint-config/tree/master/packages/eslint-config#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/philipbordallo/eslint-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/philipbordallo/eslint-config/issues"
-  },
+  "repository": "github:philipbordallo/eslint-config",
+  "bugs": "https://github.com/philipbordallo/eslint-config/issues",
   "peerDependencies": {
     "eslint": ">=7"
   }

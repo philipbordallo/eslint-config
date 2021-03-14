@@ -1,4 +1,4 @@
-import { OFF, ERROR } from 'src/states';
+import { OFF, ERROR } from 'src/constants';
 
 export default {
   'arrow-body-style': [ERROR, 'as-needed', {

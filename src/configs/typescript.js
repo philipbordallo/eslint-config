@@ -1,31 +1,23 @@
-import createConfig from 'src/utilities/createConfig';
+import tsExtensionRules from 'src/rules/@typescript-eslint/extension';
+import tsSupportedRules from 'src/rules/@typescript-eslint/supported';
+
 
 export default {
-  name: 'typescript',
-  packageName: 'eslint-config-typescript',
-  creator: createConfig({
-    rules: {
-      'eslint/best-practices': true,
-      'eslint/errors': true,
-      'eslint/es6': true,
-      'eslint/node-rules': true,
-      'eslint/react': false,
-      'eslint/strict-mode': true,
-      'eslint/style': true,
-      'eslint/variables': true,
-      '@typescript-eslint/extension': true,
-      '@typescript-eslint/supported': true,
-    },
-    base: {
-      env: {
-        es6: true,
-        browser: true,
-        node: true,
-      },
-      parserOptions: {
-        sourceType: 'module',
-        ecmaVersion: 2020,
+  parserOptions: {
+    project: './tsconfig.json',
+    tsconfigRootDir: process.cwd(),
+  },
+  overrides: [
+    {
+      files: ['**/*.{ts,tsx}'],
+      parser: '@typescript-eslint/parser',
+      plugins: [
+        '@typescript-eslint/eslint-plugin',
+      ],
+      rules: {
+        ...tsExtensionRules,
+        ...tsSupportedRules,
       },
     },
-  }),
+  ],
 };

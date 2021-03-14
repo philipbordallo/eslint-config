@@ -1,4 +1,5 @@
-import { OFF, WARN, ERROR } from 'src/states';
+import { OFF, WARN, ERROR } from 'src/constants';
+import style from './eslint/style';
 
 export default {
   // React Class Methods, see https://reactjs.org/docs/react-component.html
@@ -22,14 +23,15 @@ export default {
       'getSnapshotBeforeUpdate',
     ],
   }],
-
   'react/boolean-prop-naming': ERROR,
   'react/button-has-type': [ERROR, {
     button: true,
     submit: true,
     reset: false,
   }],
-  'react/default-props-match-prop-types': [ERROR, { allowRequiredDefaults: false }],
+  'react/default-props-match-prop-types': [ERROR, {
+    allowRequiredDefaults: false,
+  }],
   'react/destructuring-assignment': [ERROR, 'always'],
   'react/display-name': OFF,
   'react/forbid-dom-props': OFF,
@@ -38,11 +40,16 @@ export default {
     checkContextTypes: true,
     checkChildContextTypes: true,
   }],
-  'react/jsx-boolean-value': [ERROR, 'never', { always: [] }],
+  'react/jsx-boolean-value': [ERROR, 'never', {
+    always: [],
+  }],
   'react/jsx-child-element-spacing': OFF,
   'react/jsx-closing-bracket-location': [ERROR, 'line-aligned'],
   'react/jsx-closing-tag-location': ERROR,
-  'react/jsx-curly-brace-presence': [ERROR, { props: 'never', children: 'never' }],
+  'react/jsx-curly-brace-presence': [ERROR, {
+    props: 'never',
+    children: 'never',
+  }],
   'react/jsx-curly-spacing': [ERROR, 'always', {
     allowMultiline: true,
     spacing: { objectLiterals: 'never' },
@@ -52,9 +59,12 @@ export default {
     eventHandlerPrefix: 'handle',
     eventHandlerPropPrefix: 'on',
   }],
-  'react/jsx-indent-props': [ERROR, 2],
+  'react/jsx-indent-props': style.indent.slice(0, 2),
   'react/jsx-key': OFF,
-  'react/jsx-max-props-per-line': [ERROR, { maximum: 1, when: 'multiline' }],
+  'react/jsx-max-props-per-line': [ERROR, {
+    maximum: 1,
+    when: 'multiline',
+  }],
   'react/jsx-no-bind': [ERROR, {
     ignoreRefs: true,
     allowArrowFunctions: true,
@@ -62,7 +72,9 @@ export default {
     allowBind: false,
     ignoreDOMComponents: true,
   }],
-  'react/jsx-no-duplicate-props': [ERROR, { ignoreCase: true }],
+  'react/jsx-no-duplicate-props': [ERROR, {
+    ignoreCase: true,
+  }],
   'react/jsx-no-literals': OFF,
   'react/jsx-no-undef': ERROR,
   'react/jsx-pascal-case': [ERROR, {
@@ -170,9 +182,9 @@ export default {
   }],
   'react/jsx-first-prop-new-line': [ERROR, 'multiline-multiprop'],
   'react/jsx-equals-spacing': [ERROR, 'never'],
-  'react/jsx-indent': [ERROR, 2],
+  'react/jsx-indent': style.indent.slice(0, 2),
   'react/jsx-no-target-blank': [ERROR, { enforceDynamicLinks: 'always' }],
-  'react/jsx-filename-extension': [ERROR, { extensions: ['.jsx'] }],
+  'react/jsx-filename-extension': [ERROR, { extensions: ['.jsx', '.tsx'] }],
   'react/jsx-no-comment-textnodes': ERROR,
   'react/no-render-return-value': ERROR,
   'react/require-optimization': OFF,

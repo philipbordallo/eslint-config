@@ -1,4 +1,4 @@
-import { OFF, ERROR } from 'src/states';
+import { OFF, ERROR } from 'src/constants';
 
 import restrictedGlobals from 'eslint-restricted-globals';
 
@@ -12,6 +12,14 @@ export default {
   'no-undef': ERROR,
   'no-undef-init': ERROR,
   'no-undefined': ERROR,
-  'no-unused-vars': [ERROR, { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
-  'no-use-before-define': [ERROR, { functions: true, classes: true, variables: true }],
+  'no-unused-vars': [ERROR, {
+    vars: 'all',
+    args: 'after-used',
+    ignoreRestSiblings: true,
+  }],
+  'no-use-before-define': [ERROR, {
+    functions: true,
+    classes: true,
+    variables: true,
+  }],
 };

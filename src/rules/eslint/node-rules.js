@@ -1,4 +1,4 @@
-import { OFF, ERROR } from 'src/states';
+import { OFF, ERROR } from 'src/constants';
 
 export default {
   'callback-return': OFF,

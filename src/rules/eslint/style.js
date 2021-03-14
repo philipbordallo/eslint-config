@@ -1,4 +1,4 @@
-import { OFF, WARN, ERROR } from 'src/states';
+import { OFF, WARN, ERROR } from 'src/constants';
 
 export default {
   'array-bracket-newline': [ERROR, 'consistent'],
