@@ -1,3 +1,4 @@
+<!-- GENERATED -->
 # @philipbordallo/eslint-config-jest
 > Personal ESLint config for Jest
 

@@ -1,3 +1,4 @@
+<!-- GENERATED -->
 # {{ name }}
 > {{ description }}
 

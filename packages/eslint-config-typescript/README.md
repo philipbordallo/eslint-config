@@ -1,3 +1,4 @@
+<!-- GENERATED -->
 # @philipbordallo/eslint-config-typescript
 > Personal ESLint config for TypeScript
 

@@ -24,7 +24,7 @@ export default {
     returnAssign: false,
     ignoreJSX: 'all', // delegate to eslint-plugin-react
     enforceForArrowConditionals: false,
-  }], // TODO: Check if replaced with react/wrap-multilines,
+  }],
   'no-extra-semi': ERROR,
   'no-func-assign': ERROR,
   'no-inner-declarations': ERROR,

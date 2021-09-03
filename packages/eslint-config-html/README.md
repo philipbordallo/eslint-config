@@ -1,3 +1,4 @@
+<!-- GENERATED -->
 # @philipbordallo/eslint-config-html
 > Personal ESLint config for HTML
 

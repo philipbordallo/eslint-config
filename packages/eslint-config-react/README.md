@@ -1,3 +1,4 @@
+<!-- GENERATED -->
 # @philipbordallo/eslint-config-react
 > Personal ESLint config for React
 

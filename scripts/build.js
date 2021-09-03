@@ -21,7 +21,7 @@ const README_TEMPLATE = fs.readFileSync(
 const TOC_TEMPLATE = '# eslint-config\n> Personal ESLint configs\n';
 
 /**
- * Create config file (index.js) in packages folder
+ * Create config file (index.js) in packages folder.
  * @param {string} file
  */
 async function buildConfig(file) {

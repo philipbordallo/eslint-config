@@ -1,7 +1,6 @@
 import htmlRules from 'src/rules/html';
 
 export default {
-  // ...
   overrides: [
     {
       files: ['**/*.html'],
