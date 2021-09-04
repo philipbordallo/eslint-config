@@ -1,6 +1,6 @@
 {
   "name": "@philipbordallo/eslint-config-typescript",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Personal ESLint config for TypeScript",
   "main": "index.js",
   "license": "MIT",
