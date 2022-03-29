@@ -21,16 +21,31 @@ const README_TEMPLATE = fs.readFileSync(
 const TOC_TEMPLATE = '# eslint-config\n> Personal ESLint configs\n';
 
 /**
+ * Inline expressions with their original definition instead of their value.
+ *
+ * @example
+ * export const definitions = {
+ *   'process.cwd()': JSON.stringify(process.cwd()),
+ * };
+ * @param {*} definitions
+ * @param {string} content
+ */
+function setDefinitions(definitions = {}, content = '') {
+  return Object.entries(definitions)
+    .reduce((acc, [value, key]) => acc.replace(key, value), content);
+}
+
+/**
  * Create config file (index.js) in packages folder.
  * @param {string} file
  */
 async function buildConfig(file) {
   const configFile = path.resolve(CONFIGS_PATH, file);
-  const { default: config } = await import(configFile);
+  const { default: config, definitions } = await import(configFile);
 
   const { longName } = getPackageName(file);
 
-  const stringifiedData = JSON.stringify(config);
+  const stringifiedData = setDefinitions(definitions, JSON.stringify(config));
   const generatedData = CONFIG_TEMPLATE.replace(/{{ data }}/, stringifiedData);
   const exportFile = path.resolve(PACKAGES_PATH, longName, 'index.js');
 

@@ -1,6 +1,9 @@
 import tsExtensionRules from 'src/rules/@typescript-eslint/extension';
 import tsSupportedRules from 'src/rules/@typescript-eslint/supported';
 
+export const definitions = {
+  'process.cwd()': JSON.stringify(process.cwd()),
+};
 
 export default {
   parserOptions: {

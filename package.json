@@ -22,7 +22,10 @@
     ],
     "rules": {
       "no-console": "off"
-    }
+    },
+    "ignorePatterns": [
+      "packages/**/*.js"
+    ]
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.10"
