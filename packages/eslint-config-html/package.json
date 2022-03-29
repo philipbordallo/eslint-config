@@ -1,6 +1,6 @@
 {
   "name": "@philipbordallo/eslint-config-html",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "Personal ESLint config for HTML",
   "main": "index.js",
   "license": "MIT",

@@ -1,6 +1,6 @@
 {
   "name": "@philipbordallo/eslint-config-jest",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "Personal ESLint config for Jest",
   "main": "index.js",
   "license": "MIT",
