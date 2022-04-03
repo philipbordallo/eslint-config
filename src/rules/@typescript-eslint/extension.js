@@ -21,9 +21,9 @@ export default {
   'func-call-spacing': OFF,
   '@typescript-eslint/func-call-spacing': style['func-call-spacing'],
 
-  // Disabled for now see https://github.com/typescript-eslint/typescript-eslint/issues/1824
-  // 'indent': OFF,
-  // '@typescript-eslint/indent': style.indent.slice(0, 2),
+  // https://github.com/typescript-eslint/typescript-eslint/issues/1824
+  'indent': OFF,
+  '@typescript-eslint/indent': style.indent.slice(0, 2),
 
   'init-declarations': OFF,
   '@typescript-eslint/init-declarations': variables['init-declarations'],
@@ -64,9 +64,8 @@ export default {
   'no-unused-vars': OFF,
   '@typescript-eslint/no-unused-vars': variables['no-unused-vars'],
 
-  // Disabled until release of @typescript-eslint/eslit-plugin@4.0.0
-  // 'no-use-before-define': OFF,
-  // '@typescript-eslint/no-use-before-define': variables['no-use-before-define'],
+  'no-use-before-define': OFF,
+  '@typescript-eslint/no-use-before-define': variables['no-use-before-define'],
 
   'no-useless-constructor': OFF,
   '@typescript-eslint/no-useless-constructor': es6['no-useless-constructor'],
