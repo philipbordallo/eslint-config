@@ -8,13 +8,10 @@ See [`src/configs/html.js`](../../src/configs/html.js) for how it's fully setup 
 
 
 ## Install
+Add as a `devDependency` with your favorite package manager.
 
 ```sh
-# npm
-npm add --save-dev @philipbordallo/eslint-config-html
-
-# yarn
-yarn add --dev @philipbordallo/eslint-config-html
+npm add -D @philipbordallo/eslint-config-html
 ```
 
 ### Peer Dependencies
@@ -23,14 +20,10 @@ yarn add --dev @philipbordallo/eslint-config-html
 - [`@html-eslint/parser`](https://www.npmjs.com/package/@html-eslint/parser)
 - [`eslint`](https://www.npmjs.com/package/eslint)
 
-If you are using npm v7 or greater these should automatically be installed.
+If you are using npm v7 or greater these should automatically be installed. Otherwise use your package manager to add them as `devDependencies` manually.
 
 ```sh
-# npm
-npm add --save-dev @html-eslint/eslint-plugin @html-eslint/parser eslint
-
-# yarn
-yarn add --dev @html-eslint/eslint-plugin @html-eslint/parser eslint
+npm add -D @html-eslint/eslint-plugin @html-eslint/parser eslint
 ```
 
 

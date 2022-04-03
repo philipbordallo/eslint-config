@@ -8,13 +8,10 @@ See [`src/configs/typescript.js`](../../src/configs/typescript.js) for how it's 
 
 
 ## Install
+Add as a `devDependency` with your favorite package manager.
 
 ```sh
-# npm
-npm add --save-dev @philipbordallo/eslint-config-typescript
-
-# yarn
-yarn add --dev @philipbordallo/eslint-config-typescript
+npm add -D @philipbordallo/eslint-config-typescript
 ```
 
 ### Peer Dependencies
@@ -24,14 +21,10 @@ yarn add --dev @philipbordallo/eslint-config-typescript
 - [`eslint`](https://www.npmjs.com/package/eslint)
 - [`typescript`](https://www.npmjs.com/package/typescript)
 
-If you are using npm v7 or greater these should automatically be installed.
+If you are using npm v7 or greater these should automatically be installed. Otherwise use your package manager to install they manually.
 
 ```sh
-# npm
-npm add --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint typescript
-
-# yarn
-yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint typescript
+npm add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint typescript
 ```
 
 

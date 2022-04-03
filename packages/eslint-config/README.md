@@ -8,27 +8,20 @@ See [`src/configs/default.js`](../../src/configs/default.js) for how it's fully 
 
 
 ## Install
+Add as a `devDependency` with your favorite package manager.
 
 ```sh
-# npm
-npm add --save-dev @philipbordallo/eslint-config
-
-# yarn
-yarn add --dev @philipbordallo/eslint-config
+npm add -D @philipbordallo/eslint-config
 ```
 
 ### Peer Dependencies
 
 - [`eslint`](https://www.npmjs.com/package/eslint)
 
-If you are using npm v7 or greater these should automatically be installed.
+If you are using npm v7 or greater these should automatically be installed. Otherwise use your package manager to install they manually.
 
 ```sh
-# npm
-npm add --save-dev eslint
-
-# yarn
-yarn add --dev eslint
+npm add -D eslint
 ```
 
 

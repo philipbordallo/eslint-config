@@ -8,13 +8,10 @@ See [`src/configs/react.js`](../../src/configs/react.js) for how it's fully setu
 
 
 ## Install
+Add as a `devDependency` with your favorite package manager.
 
 ```sh
-# npm
-npm add --save-dev @philipbordallo/eslint-config-react
-
-# yarn
-yarn add --dev @philipbordallo/eslint-config-react
+npm add -D @philipbordallo/eslint-config-react
 ```
 
 ### Peer Dependencies
@@ -24,14 +21,10 @@ yarn add --dev @philipbordallo/eslint-config-react
 - [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)
 - [`eslint`](https://www.npmjs.com/package/eslint)
 
-If you are using npm v7 or greater these should automatically be installed.
+If you are using npm v7 or greater these should automatically be installed. Otherwise use your package manager to install they manually.
 
 ```sh
-# npm
-npm add --save-dev eslint-plugin-jsx-a11y eslint-plugin-react-hooks eslint-plugin-react eslint
-
-# yarn
-yarn add --dev eslint-plugin-jsx-a11y eslint-plugin-react-hooks eslint-plugin-react eslint
+npm add -D eslint-plugin-jsx-a11y eslint-plugin-react-hooks eslint-plugin-react eslint
 ```
 
 

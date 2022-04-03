@@ -8,13 +8,10 @@ See [`src/configs/jest.js`](../../src/configs/jest.js) for how it's fully setup 
 
 
 ## Install
+Add as a `devDependency` with your favorite package manager.
 
 ```sh
-# npm
-npm add --save-dev @philipbordallo/eslint-config-jest
-
-# yarn
-yarn add --dev @philipbordallo/eslint-config-jest
+npm add -D @philipbordallo/eslint-config-jest
 ```
 
 ### Peer Dependencies
@@ -23,14 +20,10 @@ yarn add --dev @philipbordallo/eslint-config-jest
 - [`eslint-plugin-jest-dom`](https://www.npmjs.com/package/eslint-plugin-jest-dom)
 - [`eslint`](https://www.npmjs.com/package/eslint)
 
-If you are using npm v7 or greater these should automatically be installed.
+If you are using npm v7 or greater these should automatically be installed. Otherwise use your package manager to install they manually.
 
 ```sh
-# npm
-npm add --save-dev eslint-plugin-jest eslint-plugin-jest-dom eslint
-
-# yarn
-yarn add --dev eslint-plugin-jest eslint-plugin-jest-dom eslint
+npm add -D eslint-plugin-jest eslint-plugin-jest-dom eslint
 ```
 
 

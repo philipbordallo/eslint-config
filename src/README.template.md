@@ -8,13 +8,10 @@ See [`{{ configFile }}`](../../{{ configFile }}) for how it's fully setup or che
 
 
 ## Install
+Add as a `devDependency` with your favorite package manager.
 
 ```sh
-# npm
-npm add --save-dev {{ name }}
-
-# yarn
-yarn add --dev {{ name }}
+npm add -D {{ name }}
 ```
 
 ### Peer Dependencies
@@ -23,14 +20,10 @@ yarn add --dev {{ name }}
 - [`{{ peer }}`](https://www.npmjs.com/package/{{ peer }})
 {{/ peerDependencies }}
 
-If you are using npm v7 or greater these should automatically be installed.
+If you are using npm v7 or greater these should automatically be installed. Otherwise use your package manager to install they manually.
 
 ```sh
-# npm
-npm add --save-dev{{# peerDependencies }} {{ peer }}{{/ peerDependencies }}
-
-# yarn
-yarn add --dev{{# peerDependencies }} {{ peer }}{{/ peerDependencies }}
+npm add -D{{# peerDependencies }} {{ peer }}{{/ peerDependencies }}
 ```
 
 
