@@ -20,7 +20,7 @@ npm add -D @philipbordallo/eslint-config-jest
 - [`eslint-plugin-jest-dom`](https://www.npmjs.com/package/eslint-plugin-jest-dom)
 - [`eslint`](https://www.npmjs.com/package/eslint)
 
-If you are using npm v7 or greater these should automatically be installed. Otherwise use your package manager to install they manually.
+If you are using npm v7 or greater these should automatically be installed. Otherwise use your package manager to add them as `devDependencies` manually.
 
 ```sh
 npm add -D eslint-plugin-jest eslint-plugin-jest-dom eslint

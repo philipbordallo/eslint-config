@@ -21,7 +21,7 @@ npm add -D @philipbordallo/eslint-config-typescript
 - [`eslint`](https://www.npmjs.com/package/eslint)
 - [`typescript`](https://www.npmjs.com/package/typescript)
 
-If you are using npm v7 or greater these should automatically be installed. Otherwise use your package manager to install they manually.
+If you are using npm v7 or greater these should automatically be installed. Otherwise use your package manager to add them as `devDependencies` manually.
 
 ```sh
 npm add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint typescript
