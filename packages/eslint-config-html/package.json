@@ -13,8 +13,8 @@
   "repository": "github:philipbordallo/eslint-config",
   "bugs": "https://github.com/philipbordallo/eslint-config/issues",
   "peerDependencies": {
-    "@html-eslint/eslint-plugin": ">=0.8",
-    "@html-eslint/parser": ">=0.8",
-    "eslint": ">=7"
+    "@html-eslint/eslint-plugin": ">=0.13",
+    "@html-eslint/parser": ">=0.13",
+    "eslint": ">=8"
   }
 }

@@ -13,6 +13,6 @@
   "repository": "github:philipbordallo/eslint-config",
   "bugs": "https://github.com/philipbordallo/eslint-config/issues",
   "peerDependencies": {
-    "eslint": ">=7"
+    "eslint": ">=8"
   }
 }

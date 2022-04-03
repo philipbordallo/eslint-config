@@ -13,9 +13,9 @@
   "repository": "github:philipbordallo/eslint-config",
   "bugs": "https://github.com/philipbordallo/eslint-config/issues",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=4",
-    "@typescript-eslint/parser": ">=4",
-    "eslint": ">=7",
+    "@typescript-eslint/eslint-plugin": ">=5",
+    "@typescript-eslint/parser": ">=5",
+    "eslint": ">=8",
     "typescript": ">=4"
   }
 }
