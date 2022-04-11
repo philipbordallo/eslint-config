@@ -107,7 +107,7 @@ export default {
   '@typescript-eslint/semi': style.semi,
 
   'space-before-blocks': OFF,
-  '@typescript-eslint/semi/space-before-blocks': style['space-before-blocks'],
+  '@typescript-eslint/space-before-blocks': style['space-before-blocks'],
 
   'space-before-function-paren': OFF,
   '@typescript-eslint/space-before-function-paren': style['space-before-function-paren'],
