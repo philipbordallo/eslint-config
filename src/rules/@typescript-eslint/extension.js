@@ -40,6 +40,9 @@ export default {
   'no-dupe-class-members': OFF,
   '@typescript-eslint/no-dupe-class-members': es6['no-dupe-class-members'],
 
+  'no-duplicate-imports': OFF,
+  '@typescript-eslint/no-duplicate-imports': es6['no-duplicate-imports'],
+
   'no-empty-function': OFF,
   '@typescript-eslint/no-empty-function': bestPractices['no-empty-function'],
 
@@ -52,11 +55,26 @@ export default {
   'no-invalid-this': OFF,
   '@typescript-eslint/no-invalid-this': bestPractices['no-invalid-this'],
 
+  'no-loop-func': OFF,
+  '@typescript-eslint/no-loop-func': bestPractices['no-loop-func'],
+
   'no-loss-of-precision': OFF,
   '@typescript-eslint/no-loss-of-precision': errors['no-loss-of-precision'],
 
   'no-magic-numbers': OFF,
   '@typescript-eslint/no-magic-numbers': bestPractices['no-magic-numbers'],
+
+  'no-redeclare': OFF,
+  '@typescript-eslint/no-redeclare': bestPractices['no-redeclare'],
+
+  'no-restricted-imports': OFF,
+  '@typescript-eslint/no-restricted-imports': es6['no-restricted-imports'],
+
+  'no-shadow': OFF,
+  '@typescript-eslint/no-shadow': [variables['no-shadow'], { ignoreTypeValueShadow: true }],
+
+  'no-throw-literal': OFF,
+  '@typescript-eslint/no-throw-literal': bestPractices['no-throw-literal'],
 
   'no-unused-expressions': OFF,
   '@typescript-eslint/no-unused-expressions': bestPractices['no-unused-expressions'],
@@ -70,6 +88,12 @@ export default {
   'no-useless-constructor': OFF,
   '@typescript-eslint/no-useless-constructor': es6['no-useless-constructor'],
 
+  'object-curly-spacing': OFF,
+  '@typescript-eslint/object-curly-spacing': style['object-curly-spacing'],
+
+  'padding-line-between-statements': OFF,
+  '@typescript-eslint/padding-line-between-statements': style['padding-line-between-statements'],
+
   'quotes': OFF,
   '@typescript-eslint/quotes': style.quotes,
 
@@ -82,6 +106,12 @@ export default {
   'semi': OFF,
   '@typescript-eslint/semi': style.semi,
 
+  'space-before-blocks': OFF,
+  '@typescript-eslint/semi/space-before-blocks': style['space-before-blocks'],
+
   'space-before-function-paren': OFF,
   '@typescript-eslint/space-before-function-paren': style['space-before-function-paren'],
+
+  'space-infix-ops': OFF,
+  '@typescript-eslint/space-infix-ops': style['space-infix-ops'],
 };
