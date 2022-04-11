@@ -11,7 +11,7 @@
     "build": "babel-node ./scripts/build.js",
     "lint": "eslint src/",
     "prerelease": "npm run build",
-    "release": "sh ./scripts/release.sh",
+    "release": "babel-node ./scripts/release.js",
     "version": "npm run version:packages && git add .",
     "version:packages": "babel-node ./scripts/version.js",
     "clean": "rimraf ./packages/**/index.js"
