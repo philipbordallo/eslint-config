@@ -11,7 +11,8 @@ export default {
   'no-shadow-restricted-names': ERROR,
   'no-undef': ERROR,
   'no-undef-init': ERROR,
-  'no-undefined': ERROR,
+  /** Protected with `no-shadow-restricted-names` and `no-global-assign`. */
+  'no-undefined': OFF,
   'no-unused-vars': [ERROR, {
     vars: 'all',
     args: 'after-used',
