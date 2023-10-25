@@ -1,5 +1,5 @@
-import tsExtensionRules from 'src/rules/@typescript-eslint/extension';
-import tsSupportedRules from 'src/rules/@typescript-eslint/supported';
+import tsExtensionRules from '#src/rules/@typescript-eslint/extension.js';
+import tsSupportedRules from '#src/rules/@typescript-eslint/supported.js';
 
 export const definitions = {
   'process.cwd()': JSON.stringify(process.cwd()),

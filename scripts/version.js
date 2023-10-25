@@ -1,8 +1,8 @@
 import fs from 'fs';
-import { PACKAGES_PATH } from 'file.config';
+import { PACKAGES_PATH } from '#file.config.js';
 
 import pkg from 'package.json';
-import { getPackageName, readConfigs } from './toolbox';
+import { getPackageName, readConfigs } from './toolbox.js';
 
 /**
  * Update all packages to latest version

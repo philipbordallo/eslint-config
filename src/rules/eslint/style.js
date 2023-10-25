@@ -1,4 +1,4 @@
-import { OFF, WARN, ERROR } from 'src/constants';
+import { OFF, WARN, ERROR } from '#src/constants.js';
 
 export default {
   'array-bracket-newline': [ERROR, 'consistent'],

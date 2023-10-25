@@ -1,5 +1,5 @@
-import { ERROR, OFF } from 'src/constants';
-import style from './eslint/style';
+import { ERROR, OFF } from '#src/constants.js';
+import style from './eslint/style.js';
 
 export default {
   '@html-eslint/require-lang': ERROR,

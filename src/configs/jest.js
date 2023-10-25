@@ -1,5 +1,5 @@
-import jestRules from 'src/rules/jest';
-import jestDomRules from 'src/rules/jest-dom';
+import jestRules from '#src/rules/jest.js';
+import jestDomRules from '#src/rules/jest-dom.js';
 
 
 export default {

@@ -1,4 +1,4 @@
-import { CONFIGS_PATH } from 'file.config';
+import { CONFIGS_PATH } from '#file.config.js';
 import fs from 'fs';
 
 /**

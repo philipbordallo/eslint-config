@@ -1,4 +1,4 @@
-import { ERROR, OFF } from 'src/constants';
+import { ERROR, OFF } from '#src/constants.js';
 
 export default {
   '@typescript-eslint/adjacent-overload-signatures': ERROR,

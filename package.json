@@ -4,15 +4,19 @@
   "private": true,
   "license": "MIT",
   "author": "Philip Bordallo",
+  "type": "module",
   "workspaces": [
     "packages/*"
   ],
+  "imports": {
+    "#*": "./*"
+  },
   "scripts": {
-    "build": "babel-node ./scripts/build.js",
+    "build": "node ./scripts/build.js",
     "lint": "eslint src/",
-    "release": "pnpm build && babel-node ./scripts/release.js",
+    "release": "pnpm build && node ./scripts/release.js",
     "version": "pnpm run version:packages && git add .",
-    "version:packages": "babel-node ./scripts/version.js",
+    "version:packages": "node ./scripts/version.js",
     "clean": "rimraf ./packages/**/index.js"
   },
   "eslintConfig": {
@@ -30,12 +34,8 @@
     "confusing-browser-globals": "^1.0.11"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.9",
-    "@babel/node": "^7.16.8",
-    "@babel/preset-env": "^7.16.11",
-    "babel-plugin-module-resolver": "^4.1.0",
-    "eslint": "^8.13.0",
+    "eslint": "^8.52.0",
     "mustache": "^4.2.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^5.0.5"
   }
 }

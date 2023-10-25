@@ -1,7 +1,7 @@
-import esLintReactRules from 'src/rules/eslint/react';
-import jsxA11yRules from 'src/rules/jsx-a11y';
-import reactRules from 'src/rules/react';
-import reactHooksRules from 'src/rules/react-hooks';
+import esLintReactRules from '#src/rules/eslint/react.js';
+import jsxA11yRules from '#src/rules/jsx-a11y.js';
+import reactRules from '#src/rules/react.js';
+import reactHooksRules from '#src/rules/react-hooks.js';
 
 
 export default {

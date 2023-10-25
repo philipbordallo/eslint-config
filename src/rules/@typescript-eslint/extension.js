@@ -1,9 +1,9 @@
-import { OFF } from 'src/constants';
-import bestPractices from 'src/rules/eslint/best-practices';
-import es6 from 'src/rules/eslint/es6';
-import errors from 'src/rules/eslint/errors';
-import style from 'src/rules/eslint/style';
-import variables from 'src/rules/eslint/variables';
+import { OFF } from '#src/constants.js';
+import bestPractices from '#src/rules/eslint/best-practices.js';
+import es6 from '#src/rules/eslint/es6.js';
+import errors from '#src/rules/eslint/errors.js';
+import style from '#src/rules/eslint/style.js';
+import variables from '#src/rules/eslint/variables.js';
 
 export default {
   'brace-style': OFF,

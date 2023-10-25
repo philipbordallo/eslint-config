@@ -1,4 +1,4 @@
-import { ERROR, WARN } from 'src/constants';
+import { ERROR, WARN } from '#src/constants.js';
 
 export default {
   'react-hooks/rules-of-hooks': ERROR,

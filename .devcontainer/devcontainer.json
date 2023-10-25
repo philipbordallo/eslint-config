@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "postCreateCommand": "npm install",
+  "remoteEnv": {
+    "EDITOR": "${localEnv:EDITOR}",
+    "SHELL": "/usr${localEnv:SHELL}"
+  }
+}

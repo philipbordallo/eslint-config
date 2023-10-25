@@ -3,10 +3,8 @@ import fs from 'fs';
 
 import Mustache from 'mustache';
 
-import {
-  CONFIGS_PATH, PACKAGES_PATH, ROOT_PATH, SRC_PATH,
-} from 'file.config';
-import { getPackageName, readConfigs } from './toolbox';
+import { CONFIGS_PATH, PACKAGES_PATH, SRC_PATH } from '#file.config.js';
+import { getPackageName, readConfigs } from './toolbox.js';
 
 
 // Disable HTML escaping for Mustache
@@ -60,7 +58,7 @@ async function buildReadMe(file) {
   const { longName, shortName } = getPackageName(file);
 
   const packageFile = path.resolve(PACKAGES_PATH, longName, 'package.json');
-  const { default: pkg } = await import(packageFile);
+  const pkg = JSON.parse(fs.readFileSync(packageFile, { encoding: 'utf-8' }));
 
   const view = {
     name: pkg.name,
@@ -101,4 +99,4 @@ configs.forEach((file) => {
 });
 
 const tableOfContents = configs.reduce(buildTOC, TOC_TEMPLATE);
-fs.writeFileSync(path.resolve(ROOT_PATH, 'README.md'), tableOfContents);
+fs.writeFileSync(path.resolve('./', 'README.md'), tableOfContents);

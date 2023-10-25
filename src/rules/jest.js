@@ -1,4 +1,4 @@
-import { ERROR, OFF, WARN } from 'src/constants';
+import { ERROR, OFF, WARN } from '#src/constants.js';
 
 export default {
   'jest/consistent-test-it': ERROR,

@@ -1,4 +1,4 @@
-import { OFF, WARN, ERROR } from 'src/constants';
+import { OFF, WARN, ERROR } from '#src/constants.js';
 
 export default {
   'accessor-pairs': ERROR,

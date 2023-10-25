@@ -1,4 +1,4 @@
-import htmlRules from 'src/rules/html';
+import htmlRules from '#src/rules/html.js';
 
 export default {
   overrides: [

@@ -1,4 +1,4 @@
-import { WARN, ERROR } from 'src/constants';
+import { WARN, ERROR } from '#src/constants.js';
 
 export default {
   'for-direction': ERROR,

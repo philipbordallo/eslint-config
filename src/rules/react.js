@@ -1,5 +1,5 @@
-import { OFF, WARN, ERROR } from 'src/constants';
-import style from './eslint/style';
+import { OFF, WARN, ERROR } from '#src/constants.js';
+import style from './eslint/style.js';
 
 export default {
   // React Class Methods, see https://reactjs.org/docs/react-component.html

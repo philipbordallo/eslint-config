@@ -1,4 +1,4 @@
-import { OFF, ERROR } from 'src/constants';
+import { OFF, ERROR } from '#src/constants.js';
 
 const ELEMENT_INTERACTION_HANDLERS = [
   'onClick',

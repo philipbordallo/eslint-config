@@ -1,5 +1,5 @@
 import { execSync } from 'child_process';
-import { getPackageName, readConfigs } from './toolbox';
+import { getPackageName, readConfigs } from './toolbox.js';
 
 function release(file) {
   const { longName } = getPackageName(file);

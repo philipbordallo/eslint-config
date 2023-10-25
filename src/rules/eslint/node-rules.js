@@ -1,4 +1,4 @@
-import { OFF, ERROR } from 'src/constants';
+import { OFF, ERROR } from '#src/constants.js';
 
 export default {
   'callback-return': OFF,
