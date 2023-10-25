@@ -14,8 +14,8 @@
   "scripts": {
     "build": "node ./scripts/build.js",
     "lint": "eslint src/",
-    "release": "pnpm build && node ./scripts/release.js",
-    "version": "pnpm run version:packages && git add .",
+    "release": "npm run build && node ./scripts/release.js",
+    "version": "npm run version:packages && git add .",
     "version:packages": "node ./scripts/version.js",
     "clean": "rimraf ./packages/**/index.js"
   },
